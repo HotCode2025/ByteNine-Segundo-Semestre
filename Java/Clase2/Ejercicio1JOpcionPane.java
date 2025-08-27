@@ -1,8 +1,6 @@
-package Ciclos01;
-
 import javax.swing.JOptionPane;
 
-public class Ejercicio01 {
+public class Ejercicio1JOpcionPane {
 
     public static void main(String[] args) {
 
