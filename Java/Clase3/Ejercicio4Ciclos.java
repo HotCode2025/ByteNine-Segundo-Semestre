@@ -1,4 +1,4 @@
-package Java.Clase3;
+package Clase3;
 //Ejercicio 4: Pedir números hasta que se teclee uno negativo, y mostrar cuántos números se han introducido.
 //Lo hacemos primero con la clase Scanner
 //Luego lo hacemos con la clase JOptionPane
