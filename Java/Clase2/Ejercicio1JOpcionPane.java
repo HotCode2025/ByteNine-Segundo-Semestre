@@ -1,3 +1,5 @@
+package Clase2;
+
 import javax.swing.JOptionPane;
 
 public class Ejercicio1JOpcionPane {
@@ -16,4 +18,5 @@ public class Ejercicio1JOpcionPane {
         System.out.println("El programa a finalizado por número negativo ");
 
     }
+
 }
