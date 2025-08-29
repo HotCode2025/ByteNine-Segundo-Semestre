@@ -1,3 +1,4 @@
+package Clase2;
 /*Ejercicio 1: Leer un número y mostrar su cuadrado, repetir
 el proceso hasta que se introduzca un número negativo*/
 
@@ -17,6 +18,7 @@ public class Ejercicio1Ciclo {
             System.out.print("Ingrese otro número (negativo para salir): ");
             numero = entrada.nextInt();
         }
+    entrada.close();
     System.out.println("El programa finalizo");
     }
 
