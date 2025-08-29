@@ -1,4 +1,4 @@
-package Java.Clase3;
+package Clase3;
 
 import java.util.Scanner;
 
@@ -26,7 +26,7 @@ public class Ejercicio5Ciclo {
         contador++;
 
     }while(numero != numaleatorio);
-
+    entrada.close();
     System.out.println("\tAdivinaste el numero en " + contador + " intentos");
     
     }
