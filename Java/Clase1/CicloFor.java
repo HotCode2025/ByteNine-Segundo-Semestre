@@ -1,4 +1,4 @@
-package Clase1Java;
+package Clase1;
 
 public class CicloFor {
 

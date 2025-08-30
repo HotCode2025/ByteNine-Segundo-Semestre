@@ -1,5 +1,5 @@
 
-package Clase1Java;
+package Clase1;
 
 public class CicloWhile {
     public static void main(String[] args) {

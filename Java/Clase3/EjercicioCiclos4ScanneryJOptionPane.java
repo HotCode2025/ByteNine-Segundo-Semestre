@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
-class Ejercicio4Ciclos {
+class EjercicioCiclos4ScanneryJOptionPane {
     public static void main(String[] args){
         
         Scanner entrada = new Scanner(System.in);
