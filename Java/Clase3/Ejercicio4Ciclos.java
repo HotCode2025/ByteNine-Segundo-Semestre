@@ -8,8 +8,9 @@ import javax.swing.JOptionPane;
 
 class Ejercicio4Ciclos {
     public static void main(String[] args){
-        /*//Con la clase Scanner
+        
         Scanner entrada = new Scanner(System.in);
+        /*//Con la clase Scanner
         int contador1 = 0;
         System.out.print("Ingrese un número (negativo para salir): ");
         int numero = entrada.nextInt();
@@ -20,7 +21,8 @@ class Ejercicio4Ciclos {
         } 
 
         System.out.println("Cantidad de números introducidos: " + contador1 + " Con la clase Scanner");
-        entrada.close();*/
+        */
+        entrada.close();
 
         //Con la clase JOptionPane
         String input = JOptionPane.showInputDialog("Ingrese un número (negativo para salir): ");

@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 public class Ejercicio5Ciclo {
     public static void main(String[] args) {
-        //Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         int numero, numaleatorio, contador = 0;
 
@@ -28,10 +28,10 @@ public class Ejercicio5Ciclo {
         contador++;
 
         }while(numero != numaleatorio);
+        System.out.println("\tAdivinaste el numero en " + contador + " intentos");
+        */
         entrada.close();
-        System.out.println("\tAdivinaste el numero en " + contador + " intentos");*/
-    
-    
+
         numaleatorio = (int)(Math.random() * 100);
 
         do{

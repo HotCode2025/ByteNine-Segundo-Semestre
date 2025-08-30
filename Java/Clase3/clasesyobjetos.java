@@ -1,6 +1,6 @@
-package clase3;
+package Clase3;
 
-public class clasesyobjetos {
+public class ClasesyObjetos {
     String nombre;
     String apellido;
     
