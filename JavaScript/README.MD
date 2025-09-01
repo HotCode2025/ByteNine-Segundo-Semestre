@@ -131,7 +131,7 @@ Practica con uso For y Break. | [Ver archivo](https://github.com/HotCode2025/Byt
 
 <br>
 
-1.  **Arreglos.js** | Practica con la sintaxis New Array (Antigua) y sintaxis Const (Mordena). | [Ver archivo](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/8dc347013b917b06580b7ff2343e9e2788635ebc/JavaScript/Clase2/Arreglos.js) 
+1.  **Arreglos.js** | Practica con la sintaxis New Array (Antigua) y sintaxis Const (Moderna). | [Ver archivo](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/8dc347013b917b06580b7ff2343e9e2788635ebc/JavaScript/Clase2/Arreglos.js) 
 2.  **ModificarElementos.js** | Contiene 4 ejercicios de Teoria sobre Array, con el uso de las propiedades y metodos push, length. | [Ver archivo](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/8dc347013b917b06580b7ff2343e9e2788635ebc/JavaScript/Clase2/ModificarElementos.js) 
 
 3.  **PreguntarArray.js** | Contiene 1 ejercicio que demuestra el uso de la sintaxis de arrays. | [Ver archivo](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/8dc347013b917b06580b7ff2343e9e2788635ebc/JavaScript/Clase2/PreguntarArray.js)
