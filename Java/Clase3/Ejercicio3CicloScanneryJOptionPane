@@ -1,3 +1,6 @@
+/*Ejercicios 03 Ciclos, Usamos Clase Scanner y Clase OKptionPane
+Primer Ejercicio Clase Scanner
+*/
 package Ciclos03
 
 public class Ejercico3CicloScanner {
@@ -27,7 +30,8 @@ public class Ejercico3CicloScanner {
     }
 }
 
-// Ejercicio3 Usando Clsee JOptionPane
+/* Ejercicio3 Usando Clase JOptionPane
+*/
 
 package Ciclos03
 
