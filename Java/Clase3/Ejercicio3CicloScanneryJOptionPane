@@ -1,4 +1,6 @@
-ublic class Ejercico3CicloScanner {
+package Ciclos03
+
+public class Ejercico3CicloScanner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numero;
@@ -26,6 +28,8 @@ ublic class Ejercico3CicloScanner {
 }
 
 // Ejercicio3 Usando Clsee JOptionPane
+
+package Ciclos03
 
 import javax.swing.JOptionPane;
 
