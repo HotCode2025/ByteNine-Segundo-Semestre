@@ -1,7 +1,7 @@
 /*Ejercicios 03 Ciclos, Usamos Clase Scanner y Clase OKptionPane
 Primer Ejercicio Clase Scanner
 */
-package Ciclos03
+package Ciclos03;
 
 public class Ejercico3CicloScanner {
     public static void main(String[] args) {
@@ -33,7 +33,7 @@ public class Ejercico3CicloScanner {
 /* Ejercicio3 Usando Clase JOptionPane
 */
 
-package Ciclos03
+package Ciclos03;
 
 import javax.swing.JOptionPane;
 
