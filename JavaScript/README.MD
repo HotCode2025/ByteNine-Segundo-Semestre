@@ -2,7 +2,7 @@
 
 ### Descripción del Proyecto
 
-Este repositorio contiene los ejercicios y el material de clases de Java. Nuestro objetivo como equipo **ByteNine** es documentar y compartir nuestro progreso.
+Este repositorio contiene los ejercicios y el material de clases de JavaScript. Nuestro objetivo como equipo **ByteNine** es documentar y compartir nuestro progreso.
 
 <div align="center">
     <a href="https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/main" target="_blank">
