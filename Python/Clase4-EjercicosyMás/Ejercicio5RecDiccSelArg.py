@@ -1,5 +1,5 @@
 # Diccionario de la Seleccion Argentina
-
+seleccionArgentina = {
 10 :{'Nombre': 'Lionel Messi', 'Edad' : 35, 'Altura' : 1.70, 'Precio' : '50 Millones', 'Posicion' : 'Extremo Derecho'},
     23: {'Nombre': 'Emiliano Martínez', 'Edad': 31, 'Altura': 1.95, 'Precio': '28 Millones', 'Posicion': 'Portero'},
     13: {'Nombre': 'Cristian Romero', 'Edad': 26, 'Altura': 1.85, 'Precio': '60 Millones', 'Posicion': 'Defensor Central'},
@@ -15,3 +15,4 @@
 
 for i in seleccionArgentina:
     print(f"{i} -> {seleccionArgentina[i]}")
+
