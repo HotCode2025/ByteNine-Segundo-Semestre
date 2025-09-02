@@ -324,7 +324,7 @@ Clase3 | [Ver Proyecto]()
 <br>
 
 <details>
-<summary><b>Clase 4: sin nombre aun</b>
+<summary><b>Clase 4: Ejercicios y Más Tarea</b>
 </summary>
 <br>
 
@@ -358,13 +358,13 @@ Clase4 | [Ver Proyecto]() |
 
 <br>
 
-1.  ** .py ** | [Ver archivo](falta) 
+1.  **EjercicioColecciones1.py** | [Ver archivo](falta) 
 
-2.  ** .py** || [Ver archivo]() 
+2.  **EjercicioColecciones2.py** || [Ver archivo]() 
 
-3.  ** .py** || [Ver archivo]()
+3.  **EjercicioColecciones3.py** || [Ver archivo]()
 
-4.  ** .py** | [Ver archivo]() 
+4.  **Ejercicio1MatematicasClasemath .py** | [Ver archivo]() 
 
 5.  ** **
 </details>
