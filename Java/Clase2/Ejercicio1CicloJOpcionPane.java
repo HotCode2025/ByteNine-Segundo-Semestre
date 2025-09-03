@@ -1,5 +1,3 @@
-package Clase2;
-
 import javax.swing.JOptionPane;
 
 public class Ejercicio1CicloJOpcionPane {
