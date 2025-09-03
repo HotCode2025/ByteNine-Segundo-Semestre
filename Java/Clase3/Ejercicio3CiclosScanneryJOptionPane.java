@@ -2,14 +2,14 @@
 
 package Clase3;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
 public class Ejercicio3CiclosScanneryJOptionPane {
     public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in);
+        //Scanner entrada = new Scanner(System.in);
 
         /* 
         System.out.println("PROGRAMA PARA DETERMINAR SI UN NÚMERO ES PAR O IMPAR");
