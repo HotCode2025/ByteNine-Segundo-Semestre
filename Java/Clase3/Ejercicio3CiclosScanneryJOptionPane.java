@@ -1,19 +1,23 @@
-/*Ejercicios 03 Ciclos, Usamos Clase Scanner y Clase OKptionPane
-Primer Ejercicio Clase Scanner
-*/
-package Ciclos03;
+//Ejercicios 03 Ciclos, Usamos Clase Scanner y Clase OKptionPane Primer Ejercicio Clase Scanner
 
-public class Ejercico3CicloScanner {
+package Clase3;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Ejercicio3CiclosScanneryJOptionPane {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int numero;
-        
+
+        Scanner entrada = new Scanner(System.in);
+
+        /* 
         System.out.println("PROGRAMA PARA DETERMINAR SI UN NÚMERO ES PAR O IMPAR");
         System.out.println("Introduce números (0 para salir):");
         
         do {
             System.out.print("Introduce un número: ");
-            numero = scanner.nextInt();
+            numero = entrada.nextInt();
             
             if (numero != 0) {
                 if (numero % 2 == 0) {
@@ -26,21 +30,17 @@ public class Ejercico3CicloScanner {
         } while (numero != 0);
         
         System.out.println("Programa finalizado.");
-        scanner.close();
+        entrada.close();
     }
-}
-
-/* Ejercicio3 Usando Clase JOptionPane
 */
 
-package Ciclos03;
+//Ejercicio3 Usando Clase JOptionPane
 
-import javax.swing.JOptionPane;
-
-public class Ejercicio3CicloJOptionPane {
-    public static void main(String[] args) {
-        int numero;
         
+// Scanner entrada = new Scanner(System.in);
+        int numero = -1;
+
+        // Ejercicio3 Usando Clase JOptionPane
         JOptionPane.showMessageDialog(null, 
             "PROGRAMA PARA DETERMINAR SI UN NÚMERO ES PAR O IMPAR\n" +
             "Introduce números (0 para salir)", 
@@ -89,9 +89,6 @@ public class Ejercicio3CicloJOptionPane {
             
         } while (numero != 0);
         
-        JOptionPane.showMessageDialog(null, 
-            "Programa finalizado", 
-            "Fin", 
-            JOptionPane.INFORMATION_MESSAGE);
-    }
+        JOptionPane.showMessageDialog(null, "Programa finalizado.", "Fin", JOptionPane.INFORMATION_MESSAGE);
+    }    
 }
