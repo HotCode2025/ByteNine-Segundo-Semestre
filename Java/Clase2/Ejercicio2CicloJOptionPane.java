@@ -3,13 +3,11 @@ negativo. El proceso se repitira hasta que se introduzca
 un cero 0 
  */
 
-/*Use clase JptionPane
-
-package Ciclos02;
+//Use clase JptionPane
 
 import javax.swing.JOptionPane;
 
-public class Ejercicio02_JOptionPane {
+public class Ejercicio2CicloJOptionPane {
     public static void main(String[] args) {
         String input;
         int numero;
