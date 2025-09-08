@@ -1,4 +1,4 @@
-// Maxi
+// Maxi 
 // Calcular la suma de N Terminos de la siguiente serie:
 // S = 1 - 1/2 + 1/3 - 1/4 + 1/5 - 1/6 ... 1/N
 
