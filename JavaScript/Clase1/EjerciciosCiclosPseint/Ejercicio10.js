@@ -1,1 +1,0 @@
-//Ejercicio 10: Realizar un programa que permita contabilizar cuantas veces una subcadena se repite dentro de una frase. 
