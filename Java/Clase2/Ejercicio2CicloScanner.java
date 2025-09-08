@@ -2,24 +2,29 @@
 negativo. El proceso se repitira hasta que se introduzca 
 un cero 0 
  */
-package Ciclos02;
 
 import java.util.Scanner;
-public class Ejercicio02 {
+
+public class Ejercicio2CicloScanner {
    public static void main(String[] args) { 
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Digite un número;"); 
+
+        System.out.println("Digite un número: "); 
+
         var numero = Integer.parseInt(entrada.nextLine());
+
         while(numero !=0){
+
             if(numero > 0){
-                System.out.println("El número" +numero+ "Es Positivo");   
+                System.out.println("El número " + numero + " es Positivo");   
             }
             else {
-                System.out.println("El número" +numero+ "Es Negativo");
+                System.out.println("El número " + numero + " es Negativo");
             }
             System.out.println("Digite otro número: ");
             numero = Integer.parseInt(entrada.nextLine());
         }
-        System.out.println("El número" +numero+ "Finaliza el Programa");
+        entrada.close();
+        System.out.println("El número " +numero+ " Finaliza el Programa");
    }                 
 }
