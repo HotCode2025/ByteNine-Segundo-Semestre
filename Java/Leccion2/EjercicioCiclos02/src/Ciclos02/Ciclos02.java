@@ -1,6 +1,6 @@
 /*Clase 2:Tema: Ejercicios con ciclos y Crear Clases POO parte 0 (20-08)
 Punto:-2.2 Ejercicio 2 de ciclos en Java con la clase Scanner*/
-/*Ejercicio2: Leer un numero e indicar si es positivo o negativo.
+ /*Ejercicio2: Leer un numero e indicar si es positivo o negativo.
 El proceso se repetira hasta que se introduzca un  cero 0. */
 package Ciclos02;
 
@@ -23,6 +23,4 @@ public class Ciclos02 {
         }
         System.out.println("El numero " + numero + " finaliza el programa");
     }
-
 }
-

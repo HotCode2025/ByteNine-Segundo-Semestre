@@ -10,72 +10,31 @@ package Ciclos05;
 
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
-
 public class Ciclos05 {
 
     public static void main(String[] args) {
-        //Clase Scanner
-        /*Scanner entrada = new Scanner(System.in);
-        int numeroAleatorio;
+        Scanner entrada = new Scanner(System.in);
+
+        int numeroAleatorio = (int) (Math.random() * 101);
         int numeroDigitado;
         int intentos = 0;
 
-        // Generar un número aleatorio entre 0 y 100 
-        numeroAleatorio = (int) (Math.random() * 101);
-
-        System.out.println("JUEGO: Adivina el numero oculto entre 0 y 100");
+        System.out.println("Adivina el numero entre 0 y 100.");
 
         do {
-            if (intentos == 0) {
-                System.out.print("Digite un número: ");
-            } else {
-                System.out.print("Digite otro número: ");
-            }
-
+            System.out.println("Digite un numero: ");
             numeroDigitado = entrada.nextInt();
             intentos++;
 
             if (numeroDigitado > numeroAleatorio) {
-                System.out.println("Pista: El número es MENOR al ingresado");
+                System.out.println("El numero oculto es MENOR.");
             } else if (numeroDigitado < numeroAleatorio) {
-                System.out.println("Pista: El número es MAYOR al ingresado");
-            } else {
-                System.out.println("¡Felicidades!, el numero correcto era: " + numeroAleatorio + "");
+                System.out.println("El numero oculto es MAYOR.");
             }
         } while (numeroDigitado != numeroAleatorio);
 
-        System.out.println("Haz digitado:" + intentos + " numeros ,hasta adivinar el correcto.");*/
-
-        //Clase JoPtion
-          int numeroAleatorio;
-        int numeroDigitado;
-        int intentos = 0;
-        
-        // Generar un número aleatorio entre 0 y 100
-        numeroAleatorio = (int) (Math.random() * 101);
-        
-        JOptionPane.showMessageDialog(null, "¡Adivina el número entre 0 y 100!");
-        
-        do {
-            // Se usa JOptionPane.showInputDialog para pedir el número.
-            // Este método devuelve un String.
-            String input = JOptionPane.showInputDialog("Digite un número: ");
-            
-            // 
-            numeroDigitado = Integer.parseInt(input);
-            intentos++;
-            
-            if (numeroDigitado > numeroAleatorio) {
-                JOptionPane.showMessageDialog(null, "Pista: El número es MENOR al ingresado.");
-            } else if (numeroDigitado < numeroAleatorio) {
-                JOptionPane.showMessageDialog(null, "Pista: El número es MAYOR al ingresado.");
-            }
-        } while (numeroDigitado != numeroAleatorio);
-        
-        JOptionPane.showMessageDialog(null, "¡Felicidades!, el numero correcto era: " + numeroAleatorio + ".\n"
-                + "Haz digitado: " + intentos + " numeros hasta adivinar.");
-
+        System.out.println("Felicitaciones!!Adivinaste el numero");
+        System.out.println("El numero era: " + numeroAleatorio);
+        System.out.println("Lo lograste en " + intentos + " intentos.");
     }
-
 }
