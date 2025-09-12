@@ -1,3 +1,4 @@
+
 //Viene de Clase 4
 /*Clase 5; Tema Clases y Objetos Parte 3 Tarea
 Punto: 5.1 Clase Aritmética: Creamos un objeto*/
@@ -22,5 +23,5 @@ public class PruebaAritmetica {
         System.out.println("Resultado usando argumentos = "+resultado);
    
     }
-    
+
 }
