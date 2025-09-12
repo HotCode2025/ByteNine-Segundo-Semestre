@@ -2,7 +2,7 @@
 #Punto: 4.1  Ejercicio de Colecciones 1
 #Tarea:  hacer los ejercicios sin tener el video. (entrega antes de 23 hs)
 #Ejercicio 1: Eliminar duplicacion de una lista
-#Escriba u programa donde tenga una lista y que a continuacion 
+#Escriba u programa donde tenga una lista y que a continuacion
 #elimine los elementos repetidos, por ultimo mostrar la lista
 
 #Creamos una lista

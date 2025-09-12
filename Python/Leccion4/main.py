@@ -1,6 +1,6 @@
-#Clase 1: Tema:Colecciones Parte 1 (11/08)
-#Punto: 1.1 Listas Parte 1 , 2 y 3
-#Ejemplo: lista = Ariel, Liliana, Natalia, Osvaldo
+#Clase 1(11/08)Teoria Practica Colecciones(listas-Tupla)
+#lista = Ariel, Liliana, Natalia, Osvaldo
+#COLECCIONES EN PYTHON
 #COLECCION LISTAS(arreglos o vectores)
 
 nombres = ['Naty','Osvaldo', 'Lily','Ariel']
@@ -33,9 +33,7 @@ print(len(nombres))#le pasamos como parametro la lista
 #Agregar un elemento
 nombres.append('Marcelo')
 print(nombres)
-#CLASE 2-Tema: Colecciones Parte 2(18-08) 
-#Punto: 2.3 repaso y mas conceptos de Listas
-# repaso.Diferentes tipos de datos
+#CLASE2.repaso.Diferentes tipos de datos
 nombres.append([1,2,3])#lista dentro de una lista
 nombres.append(True)#Tipo booleano
 nombres.append(10.45)#Tipo float
@@ -67,8 +65,7 @@ print(nombres)
 #del nombres
 #print(nombres)#Va a marcar error porque la lista se borro
 
-#CLASE 1: Tema:Colecciones Parte 1 (11/08)
-#Punto:1.2 Tuplas Parte 1 y 2
+#COLECCION TUPLA
 #Definimos una TUPLA
 cocina = ('cuchara', 'cuchillo', 'tenedor')
 print(cocina)
@@ -105,8 +102,9 @@ print("\n", cocina)
 ## del cocina Esto es para eliminar tupla
 print(cocina)
 
-# CLASE 2- Tema: Colecciones Parte 2(18-08) 
-#Punto: 2.1 Tipo set o conjunto
+# CLASE 2: 18-08
+#COLECCIONES EN PYTHON
+#COLECCION  SET
 #Tipo set(conjunto)
 planetas = {'Marte','Júpiter', 'Venus'}
 print(len(planetas))#Usamos la FUNCI0N len = length significa largo
@@ -133,8 +131,7 @@ print(planetas)
 #del planetas #Borra el conjunto y dara error
 #print(planetas)
 
-# # CLASE 2- tema: Colecciones Parte 2(18-08) 
-#Punto: 2.2 Diccionario en Python
+# DICCIONARIO EN PYTHON
 #'Maradona: 10 Un diccionario esta compuesto por dos elementos
 # UNA LLAVE Y UN VALOR
 #dict(key,value)
@@ -195,8 +192,7 @@ print(diccionario)
 #del diccionario#Se borra el diccionario
 #print(diccionario)
 
-#CLASE 2-Tema: Colecciones Parte 2(18-08) 
-#Punto: 2.3 repaso y mas conceptos de Listas
+#REPASO Y CONCEPTOS DE LISTAS
 #Concatenamos Listas
 lista1 = [1, 2, 3, 1]
 lista2 = [4, 5, 6, 1]
@@ -230,8 +226,7 @@ print(lista3)#Ascendente
 lista3.sort(reverse = True)
 print(lista3)#Descendente
 
-#CLASE 2-Tema: Colecciones Parte 2(18-08) 
-#Punto: 2.4 repaso y mas conceptos de Tuplas
+#REPASO Y MAS CONCEPTOS DE TUPLAS
 #Tipo de datos
 tupla = (4,'Hola', 6.78,[1, 2, 3], 4, 4, 'Hola')#puede tener diferentes tipos de datos dentro
 print(tupla)
@@ -243,8 +238,8 @@ print(4 not in tupla)#Devuelve booleano. ¿4 no esta en tupla?
 #Lo que podemos usar dentro de TUPLAS: index, count, len
 # En tuplas se puede convertir de tupla a lista y de lista a tupla
 
-# CLASE 3-Tema: Colecciones Parte 3(25-08)
-#Punto: 3.1-Repaso del tipo SET o Conjunto
+# CLASE 3(25-08)
+#3.1-Repaso del tipo SET o Conjunto
 #Para definir un conjunto(set)
 conjunto2 = set()
 conjunto1 = {'bye',}
@@ -290,8 +285,7 @@ print(conjunto1.isdisjoint(conjunto2))#Preguntamos si existen cosas en comun
 conjunto1 = frozenset #Esto hace que el conjunto sea totalmente inmutable
 # No se puede agregar, modificar ni eliminar elementos del conjunto
 
-# CLASE 3-Tema: Colecciones Parte 3(25-08)
-# Punto:3.2-Repaso Diccionarios
+# 3.2-Repaso Diccionarios
 diccionarioNuevo = {'Azul' : 'Blue', 'Rojo' :'Red', 'Verde': 'Green', 'Amarillo': 'Yellow'}
 print(diccionarioNuevo)
 
@@ -299,8 +293,7 @@ print(diccionarioNuevo)
 del (diccionarioNuevo['Azul'])
 print(diccionarioNuevo)
 
-
-#Punto:3.3 Ejercicio con Diccionario y Tarea
+#3.3 Ejercicio con Diccionario y Tarea
 # Los diccionarios pueden almacenar diferentes  tipos de datos
 diccionario2 = {'Ariel': {'Edad': 40, 'Altura': 1.83}, 'Osvaldo': [45, 1.85], 'Natalia': [35, 1.67]}
 print(diccionario2)
@@ -350,7 +343,7 @@ for llave, valor in seleccionArgentina.items():
 print(f"Total de jugadores cargados: {len(seleccionArgentina)}")
 
 
-#Punto:3.4-Metodo con Litas llamado PILAS
+#3.4-Metodo con Litas llamado PILAS
 pila = [1, 2, 3]
 
 #Agregar elementos a la pila por el final
@@ -363,7 +356,7 @@ elementoBorrado = pila.pop()# Quita el ultimo elemento y lo guarda en la variabl
 print(f'Sacamos el elemento {elementoBorrado}')
 print(f'La pila ahora quedo asi: {pila}')
 
-#Punto: 3.5-Metodo con LISTAS llamado COLA
+#3.5-Metodo con LISTAS llamado COLA
 #Colas con listas
 #Estructura de datos de tipo fifo(first input / first output
 cola = ['Ariel', 'Osvaldo', 'Liliana', 'Pilar']
@@ -394,8 +387,9 @@ seRetira = cola.pop(0)
 print(f'Atendido el cliente {seRetira}')
 print(cola)
 
+
 #CLASE 4-Tema: Ejercicios y Más -> Tarea(01-09)
-#Punto: 4.5 Recorremos el Diccionario seleccionArgentina 
+#Punto: 4.5 Recorremos el Diccionario seleccionArgentina
 #Otra forma de mostrar un diccionario
 for i in seleccionArgentina:
     print(f'{i} -> {seleccionArgentina[i]}')

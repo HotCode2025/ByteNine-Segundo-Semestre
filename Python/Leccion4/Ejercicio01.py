@@ -1,4 +1,3 @@
-
 #CLASE 4-Tema: Ejercicios y Más -> Tarea(01-09)
 #Punto: 4.6 Ejercicio 1 Llenar una Lista
 #Ejercicio 1: Llenar una lista con los numeros del 1 al 50,luego mostrar

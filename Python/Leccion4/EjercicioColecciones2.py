@@ -5,8 +5,8 @@
 #cree las siguientes listas( en las que no deben haber repeticion)
 # 1 Lista de palabras que aparecen en las listas
 # 2 Lista de palabras que aparecen en la primera lista, pero no een la segunda
-# 3  Lista de palabras que aparecen en la segunda lista, pero no en la primera
-# 4  Lista de palabras que aparecen en ambas listas
+# 3 Lista de palabras que aparecen en la segunda lista, pero no en la primera
+# 4 Lista de palabras que aparecen en ambas listas
 
 # Definir las dos listas
 lista1 = ["Gabriel", "Amelia", "Agustin", "Valeria", "Santiago", "Osvaldo", "Gabriel"]
@@ -38,5 +38,3 @@ print()
 en_ambas = list(set(lista1) & set(lista2))
 print("4) Palabras en ambas listas:")
 print(en_ambas)
-
-

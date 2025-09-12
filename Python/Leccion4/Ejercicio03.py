@@ -15,6 +15,5 @@ while not salir:
         lista.append(numero)
 #funcion para ordenar
 lista.sort()# la lista esta ordenada con esta funcion
-print(f'Lista ordenada; \n{lista}')            
-
+print(f'Lista ordenada; \n{lista}')
 
