@@ -20,7 +20,7 @@ for( let contando = 0; contando < 3; contando++){
 }
 console.log("Fin del ciclo for");
 
-// Palabra resevada break
+//Palabra resevada break
 for(let contando = 0; contando <= 10; contando++){
     if(contando % 2 == 0){
         console.log(contando); //Muestra todos los pares
@@ -29,7 +29,7 @@ for(let contando = 0; contando <= 10; contando++){
 }
 console.log("Termina el ciclo al encontrar el primer numero par");
 
-// La palabra continue y Etiquetas Labels
+//La palabra continue y Etiquetas Labels
 inicio:
 for(let contando = 0; contando <= 10; contando ++){
     if (contando % 2 !== 0){
