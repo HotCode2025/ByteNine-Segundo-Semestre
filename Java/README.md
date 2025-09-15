@@ -1,17 +1,19 @@
-# Programación con Java
+# PROGRAMACION EN JAVA
+
 Este repositorio es parte de la organización **HotCode-2025** y fue creado por el equipo **ByteNine**. Su propósito es almacenar los ejercicios y proyectos del Lenguaje Java, diseñados para ser trabajados en IDE **Apache NetBeans** y gestionados con **Java Ant** y **Java Aplication** .
 
 ## Colaboradores
 
-- [@NombreDeUsuari0]()
-- [@NombreDeUsuario]()
-- [@NombreDeUsuario]()
-- [@NombreDeUsuario]()
-- [@NombreDeUsuario]()
-- [@NombreDeUsuario]()
-- [@NombreDeUsuario]()
-- [@NombreDeUsuario]()
-- [@NombreDeUsuario]()
+- [Gabriel Santarena](https://github.com/GabrielSantarena)  -> Rol
+- [Damián Adolfo Ponce de León](https://github.com/Clarionda) Rol
+- [Gustavo Ariel Rodríguez](https://github.com/GustavoRodriguez79) Rol
+- [Agus Santarena](https://github.com/AgusSantarena) Rol
+- [Maximiliano Morales](https://github.com/MaxiMorales96) Rol
+- [Nahuel Spikerman](https://github.com/nawe2) Rol
+- [Santiago](https://github.com/santy171004) Rol
+- [Valeria Lrdín](https://github.com/Vale10Lar) Rol
+
+
 ## Reglas de Oro para Colaborar
 
 Para evitar conflictos y asegurar que todos trabajemos en la misma versión del proyecto, es **fundamental** seguir estos pasos siempre:
@@ -117,52 +119,53 @@ Para evitar conflictos y asegurar que todos trabajamos en la misma versión del 
 
 ### Detalles de Clases Semanales y Asignacion
 
-# Clase 1
+# CLASE 1
 
 - **Fecha de dictado**: 13-8 
 - **Tema**: ***Ciclos***
--**Puntos a desarrollar**:
+
+- **Puntos a desarrollar**:
 
 ***1.1 Comenzamos commiteando todo lo que este pendiente en git***
--  Designacignado a  [@NombreDeUsuario](direcciondegithub)
+-  Designacignado a  
 -  Estado:
 
 ***1.2 Ciclo While***
--  Designacignado a  [@NombreDeUsuario](direcciondegithub)
+-  Designacignado a  []()
 -  Estado:
 
 ***1.3 Ciclo Do while*** 
--  Designacignado a  [@NombreDeUsuario](direcciondegithub)
+-  Designacignado a   []()
 -  Estado
 
 ***1.4 Ciclo For*** 
--  Designacignado a  [@NombreDeUsuario](direcciondegithub)
+-  Designacignado a  []()
 -  Estado:
 
 ***1.5 Palabras break*** 
--  Designacignado a  [@NombreDeUsuario](direcciondegithub)
+-  Designacignado a   []()
 -  Estado
 
 ***1.6 Uso de etiquetas (Labels)*** 
--  Designacignado a  [@NombreDeUsuario](direcciondegithub)
+-  Designacignado a   []()
 -  Estado:
 
-# Clase 2
+# CLASE 2
 
 - **Fecha de dictado**: 20-8 
 - **Tema**: ***Ejercicios con ciclos y Crear Clases POO parte 0***
--**Puntos a desarrollar**:
+- **Puntos a desarrollar**:
 
 ***2.1 Ejercicio 1 de ciclos en Java con la clase Scanner***
--  Designacignado a  [@NombreDeUsuario](direcciondegithub)
+-  Designacignado a   []()
 -  Estado:
 
 ***2.2.1 Ejercicio 1 de ciclos en Java sin la clase Scanner: PRESENTANDO LA CLASE JOptionPane***
--  Designacignado a  [@NombreDeUsuario](direcciondegithub)
+-  Designacignado a   []()
 -  Estado:
 
 ***2.2 Ejercicio 2 de ciclos en Java con la clase Scanner y con la clase JOptionPane*** 
--  Designacignado a  [@NombreDeUsuario](direcciondegithub)
+-  Designacignado a   []()
 -  Estado
 
 ***2.3 Commitear los ejercicios hechos*** 
@@ -170,5 +173,159 @@ Para evitar conflictos y asegurar que todos trabajamos en la misma versión del 
 -  Estado:
 
 ***2.6 Crear clases en Java*** 
--  Designacignado a  [@NombreDeUsuario](direcciondegithub)
+-  Designacignado a   []()
 -  Estado
+
+
+# CLASE 3
+
+- **Fecha de dictado**: 27-8 
+- **Tema**: ***Clases y Objetos POO parte 1 Solución***
+- **Puntos a desarrollar**:
+
+***3.1 Ejercicio con Ciclos 3 y clase Scanner y JOptionPane***
+-  Designacignado a   []()
+-  Estado:
+
+***3.2 Ejercicio con Ciclos 4 y clase Scanner y JOptionPane***
+-  Designacignado a   []()
+-  Estado:
+
+***3.3 Ejercicio con Ciclos 5 y clase Scanner y JOptionPane*** 
+-  Designacignado a   []()
+-  Estado
+
+***3.4 Commit con Git Bash*** 
+-  Designacignado a  []()
+-  Estado:
+
+***3.5 Clases y Objetos*** 
+-  Designacignado a   []()
+-  Estado
+
+
+# CLASE 4
+
+- **Fecha de dictado**: 03-09
+- **Tema**: ***Clases y Objetos Parte 2 Solución***
+- **Puntos a desarrollar**:
+
+***4.1 Métodos***
+-  Designacignado a   []()
+-  Estado:
+
+***4.2 Creación de un Objeto***
+-  Designacignado a   []()
+-  Estado:
+
+***4.3 Creación de un Objeto más*** 
+-  Designacignado a   []()
+-  Estado
+
+***4.4 Commit Con Git Bash*** 
+-  Designacignado a  []()
+-  Estado:
+
+***4.5 Ejercicio con Ciclos 6 Clase Scanner y JOptionPane*** 
+* Ejercicio 6: Pedir numeros hasta que se tecle un 0, mostrar la suma de todos los numeros introducidos.
+-  Designacignado a   []()
+-  Estado
+
+***4.6 Creación de Métodos(Creacion carpeta de la Lección 4)*** 
+-  Designacignado a   []()
+-  Estado
+
+***4.7 Ejercicio con Ciclos 7 Con la Clase Scanner y JOptionPane*** 
+* Ejercicio 7: Pedir numeros hasta que se introduzca uno negativo, y calcular la media
+-  Designacignado a   []()
+-  Estado
+
+
+# CLASE 5
+
+- **Fecha de dictado**: 10-09
+- **Tema**: ***Clases y Objetos Parte 3 Tarea***
+- **Puntos a desarrollar**:
+
+***5.1 Clase Aritmética: Creamos un objeto***
+-  Designacignado a   []()
+-  Estado:
+
+***5.2 Clase Aritmética: Creamos un método, recorremos con Debbug***
+-  Designacignado a   []()
+-  Estado:
+
+***5.3 Paso de argumentos a un método*** 
+-  Designacignado a   []()
+-  Estado
+
+***5.4 Un método llamando a otro método*** 
+-  Designacignado a  []()
+-  Estado:
+
+***5.5 Operador this*** 
+-  Designacignado a   []()
+-  Estado
+
+***5.6 Commit Java con métodos*** 
+-  Designacignado a   []()
+-  Estado
+
+***5.7 Ejercicio Ciclos 08 con Scanner y JOptionPane*** 
+* Ejercicio 8: Pedir un numero N, y mostrar todos los numeros del 1 al N.
+-  Designacignado a   []()
+-  Estado
+
+***5.8 Ejercicio Ciclos 09 Con Scanner y JOptionPane*** 
+* Ejercicio 9: Pedir el dia, mes y año de una fecha e indicar si la fecha es correcta. 
+  suponiendo que todos los meses son de 30 dias
+-  Designacignado a   []()
+-  Estado
+
+***5.9 Último commit en Git Hub para los ejercicios*** 
+-  Designacignado a   []()
+-  Estado
+
+
+# CLASE 6
+
+- **Fecha de dictado**: 15-09
+- **Tema**: *** ***
+- **Puntos a desarrollar**:
+
+*** ***
+-  Designacignado a   []()
+-  Estado:
+
+*** ***
+-  Designacignado a   []()
+-  Estado:
+
+*** *** 
+-  Designacignado a   []()
+-  Estado
+
+*** *** 
+-  Designacignado a  []()
+-  Estado:
+
+*** *** 
+-  Designacignado a   []()
+-  Estado
+
+*** *** 
+-  Designacignado a   []()
+-  Estado
+
+*** *** 
+-  Designacignado a   []()
+-  Estado
+
+*** *** 
+-  Designacignado a   []()
+-  Estado
+
+*** *** 
+-  Designacignado a   []()
+-  Estado
+
