@@ -140,7 +140,25 @@ Práctica de While, Do While, Ciclo For, Palabra reservada Break, La palabra Con
 
 <br>
 
-1.  **01-03-funciones.js** | Contiene 11 ejercicios/conceptos de prácticas con Llamada con hoisting, Llamando la función normal, Función de tipo expresión (anónima), Función autoejecutable (self invoking), Uso de typeof y arguments.length en función, Convertir función a texto (toString), Funciones flecha, Función expresión con parámetros por defecto + uso de arguments, Sumar todos los argumentos (arguments en bucle), Paso por valor (tipos primitivos), Paso por referencia (objetos). | [Ver archivo](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/01d734f3dac16feb228ba3178dcb503eee548ae6/JavaScript/Tecnicatura2JS/SSLeccion03/01-03-funciones.js)
+1.  **01-03-funciones.js** | Contiene 11 ejercicios/conceptos de prácticas con Llamada con hoisting, llamando la función normal, función de tipo expresión (anónima), función autoejecutable (self invoking), uso de typeof y arguments.length en función, convertir función a texto (toString), funciones flecha, función expresión con parámetros por defecto + uso de arguments, sumar todos los argumentos (arguments en bucle), paso por valor (tipos primitivos), paso por referencia (objetos). | [Ver archivo](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/01d734f3dac16feb228ba3178dcb503eee548ae6/JavaScript/Tecnicatura2JS/SSLeccion03/01-03-funciones.js)
 </details>
+</details>
+<br>
+
+<details>
+<summary><b>SSLeccion04</b>
+</summary>
+<br>
+
+<details>
+<summary><b>📄 Clase y resumen:
+</b>
+</summary>
+
+
+
+1.  **01-04-objetos.js** | Contiene 15 ejercicios/conceptos de
+práctica e Index: Creacion y manejo de objetos, acceso y modificacion de propiedades, impresion de objetos, getters y setters, funciones constructoras, prototype, call y apply. | [Ver archivo](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/01d734f3dac16feb228ba3178dcb503eee548ae6/JavaScript/Tecnicatura2JS/SSLeccion04/01-04-objetos.js) 
+ </details>
 </details>
 <br>
