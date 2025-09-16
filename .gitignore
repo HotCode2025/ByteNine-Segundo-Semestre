@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /Java/Leccion2/CicloWhile/nbproject/private/
 /Java/Leccion2/CicloWhile/build/
 /Java/Leccion2/EjercicioCiclos01/nbproject/private/
@@ -21,6 +21,8 @@
 /Java/Leccion4/Aritmetica/build/
 /Java/Leccion2/EjercicioCiclos08/nbproject/private/
 /Java/Leccion2/EjercicioCiclos09/nbproject/private/
-=======
+
 TecnicaturaGit-Prueba/
->>>>>>> 5542bb2b4db73982a86f1497e68b161fb30bec81
+# Archivos de configuracion de PyCharm
+.idea/
+*.iml
