@@ -9,3 +9,6 @@ persona1 = Persona('Ariel', 'Betancud', 40) # Necesitamos enviar argumentos
 print(persona1.nombre)
 print(persona1.apellido)
 print(persona1.edad)
+
+persona2 = Persona("Osvaldo", "Giordanini", 45)
+print(f"El objeto de la clase persona: {persona2.nombre} {persona2.apellido} {persona2.edad}")
