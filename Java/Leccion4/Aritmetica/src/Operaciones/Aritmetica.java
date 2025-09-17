@@ -9,7 +9,7 @@ public class Aritmetica {
     //Atributos de la Clase
     int a;//Valor asignado por default 0
     int b;
-// Como estan
+// ..................------------------------------
     //Metodo (definirlo)vacio
     public void sumarNumeros() {
         int resultado = a + b;
