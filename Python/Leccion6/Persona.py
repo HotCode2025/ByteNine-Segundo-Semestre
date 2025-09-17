@@ -17,5 +17,5 @@ persona2 = Persona('Osvaldo', 'Giordanini', 45)
 
 print(f"El objeto 2 de la clase Peronsa es: {persona2.nombre} {persona2.apellido} {persona2.edad}")
 
-# Los atributos son: caracteriscas 
+# Los atributos son: caracteriscas
 # Los métodos son: el comportamiento que van a tener los objetos (acciones)
