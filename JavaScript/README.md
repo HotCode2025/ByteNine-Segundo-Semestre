@@ -158,7 +158,7 @@ Práctica de While, Do While, Ciclo For, Palabra reservada Break, La palabra Con
 
 
 1.  **01-04-objetos.js** | Contiene 15 ejercicios/conceptos de
-práctica e Index: Creacion y manejo de objetos, acceso y modificacion de propiedades, impresion de objetos, getters y setters, funciones constructoras, prototype, call y apply. | [Ver archivo](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/01d734f3dac16feb228ba3178dcb503eee548ae6/JavaScript/Tecnicatura2JS/SSLeccion04/01-04-objetos.js) 
+práctica e Index: Creacion y manejo de objetos, acceso y modificacion de propiedades, impresion de objetos, getters y setters, funciones constructoras, prototype, call y apply. | [Ver archivo](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/01d734f3dac16feb228ba3178dcb503eee548ae6/JavaScript/Tecnicatura2JS/SSLeccion04/01-04-objetos.js) | [Ver archivo](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/d563ec56a5865e115d8e6a236bff6603dbb30c0f/JavaScript/Tecnicatura2JS/SSLeccion04/index.html)
  </details>
 </details>
 <br>
