@@ -22,6 +22,7 @@ print(f"El objeto 1 de la clase Peronsa es: {persona1.nombre} {persona1.apellido
 persona2 = Persona('Osvaldo', 'Giordanini', 45)
 print(f"El objeto 2 de la clase Peronsa es: {persona2.nombre} {persona2.apellido} {persona2.edad}")
 
+
 #Punto: 8.5 Referencia de moemoria objetos con debug
 #Los objetos no comparten los valores, solo comparten los atributos.Asi se puede asignar
 #Diferentes valores a cada atributo.
@@ -33,6 +34,9 @@ print(f"El objeto 2 de la clase Peronsa es: {persona2.nombre} {persona2.apellido
 
 #Punto 8.7: Metodos de instancia.Crear un UML.(Tarea diagramar )
 # Los atributos son: caracteriscas
+
+# Los atributos son: caracteriscas 
+
 # Los métodos son: el comportamiento que van a tener los objetos (acciones)
 
 #Punto 8.8 Metodos de Instancia: Definimos un metodo
