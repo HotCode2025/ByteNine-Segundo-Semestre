@@ -1,2 +1,15 @@
+#Ignora carpetas y archivos de configuracion de todos los IDE
 .idea/
+*.iml
+
+# Ignorar carpetas de entornos virtuales  
+venv/
 .venv/
+
+#Ignorar archivos generados por Python
+__pycache__/
+*.pyc
+
+#Ignorar archivos de sistema macOS y windows
+.Ds_Store
+Thumbs.db
