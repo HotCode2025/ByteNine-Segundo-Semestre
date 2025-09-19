@@ -1,4 +1,4 @@
-#CLASE 6: Tema Poo Parte 1(15/09)
+#CLASE 6: Tema Poo Parte 1(15/09) Gustavo
 class Persona: #Creamos una clase
 
     def __init__(self, nombre, apellido, edad):  # Se lo llama método Init Dunder
