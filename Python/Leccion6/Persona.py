@@ -39,7 +39,8 @@ print(f"El objeto 2 de la clase Peronsa es: {persona2.nombre} {persona2.apellido
 
 # Los métodos son: el comportamiento que van a tener los objetos (acciones)
 
-#Punto 8.8 Metodos de Instancia: Definimos un método
+
+#Punto 8.8 Metodos de Instancia: Definimos un método.
 persona1.mostrar_detalle()
 persona2.mostrar_detalle()
 
