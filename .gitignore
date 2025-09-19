@@ -1,25 +1,15 @@
+#Ignora carpetas y archivos de configuracion de todos los IDE
+.idea/
+*.iml
 
-/Java/Leccion2/CicloWhile/nbproject/private/
-/Java/Leccion2/CicloWhile/build/
-/Java/Leccion2/EjercicioCiclos01/nbproject/private/
-/Java/Leccion2/EjercicioCiclos01/build/
-/Java/Leccion2/EjercicioCiclos02/nbproject/private/
-/Java/Leccion2/EjercicioCiclos02/build/
-/Java/Leccion2/EjercicioCiclos03/nbproject/private/
-/Java/Leccion2/EjercicioCiclos03/build/
-/Java/Leccion2/EjercicioCiclos04/nbproject/private/
-/Java/Leccion2/EjercicioCiclos04/build/
-/Java/Leccion2/EjercicioCiclos05/nbproject/private/
-/Java/Leccion2/EjercicioCiclos05/build/
-/Java/Leccion3/LeccionClasesObjetos/nbproject/private/
-/Java/Leccion3/LeccionClasesObjetos/build/
-/Java/Leccion2/EjercicioCiclos06/nbproject/private/
-/Java/Leccion2/EjercicioCiclos06/build/
-/Java/Leccion4/Aritmetica/nbproject/private/
-/Java/Leccion2/EjercicioCiclos07/nbproject/private/
-/Java/Leccion2/EjercicioCiclos07/build/
-/Java/Leccion4/Aritmetica/build/
-/Java/Leccion2/EjercicioCiclos08/nbproject/private/
-/Java/Leccion2/EjercicioCiclos09/nbproject/private/
+# Ignorar carpetas de entornos virtuales  
+venv/
+.venv/
 
-TecnicaturaGit-Prueba/
+#Ignorar archivos generados por Python
+__pycache__/
+*.pyc
+
+#Ignorar archivos de sistema macOS y windows
+.Ds_Store
+Thumbs.db

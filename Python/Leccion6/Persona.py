@@ -1,4 +1,4 @@
-#CLASE 6: Tema Poo Parte 1(15/09)
+#CLASE 6: Tema Poo Parte 1(15/09) Gustavo
 class Persona: #Creamos una clase
 
     def __init__(self, nombre, apellido, edad):  # Se lo llama método Init Dunder
@@ -43,7 +43,8 @@ print(f"El objeto 1 modificado de la clase Peronsa es: {persona1.nombre} {person
 
 # Los métodos son: el comportamiento que van a tener los objetos (acciones)
 
-#Punto 8.8 Metodos de Instancia: Definimos un método
+
+#Punto 8.8 Metodos de Instancia: Definimos un método.
 persona1.mostrar_detalle()
 persona2.mostrar_detalle()
 
