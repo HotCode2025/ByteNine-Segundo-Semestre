@@ -16,9 +16,10 @@ persona1 = Persona('Ariel', 'Betancud', 40) # Necesitamos enviar argumentos
 # print(persona1.apellido)
 # print(persona1.edad)
 # Punto: 8.4-Tarea: Hacer el print igual que con el objeto 2
-print(f"El objeto 1 de la clase Peronsa es: {persona1.nombre} {persona1.apellido} {persona1.edad}")
+
 
 #Punto: 8.4 Creamos mas objetos en una clase
+print(f"El objeto 1  de la clase Peronsa es: {persona1.nombre} {persona1.apellido} {persona1.edad}")
 persona2 = Persona('Osvaldo', 'Giordanini', 45)
 print(f"El objeto 2 de la clase Peronsa es: {persona2.nombre} {persona2.apellido} {persona2.edad}")
 
@@ -29,7 +30,10 @@ print(f"El objeto 2 de la clase Peronsa es: {persona2.nombre} {persona2.apellido
 
 
 # Punto: 8.6 Modificar atributos de un objeto
-
+persona1.nombre = "Liliana"
+persona1.apellido = "Buccella"
+persona1.edad = 40
+print(f"El objeto 1 modificado de la clase Peronsa es: {persona1.nombre} {persona1.apellido} {persona1.edad}")
 
 
 #Punto 8.7: Metodos de instancia.Crear un UML.(Tarea diagramar )
