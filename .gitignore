@@ -1,4 +1,4 @@
-#Ignora carpetas y archivos de configuracion de todos los IDE
+#Ignora carpetas y archivos de configuracion 
 .idea/
 *.iml
 
