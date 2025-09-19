@@ -7,3 +7,5 @@
 #Proporcione el pago sin impuestos: 1000
 #Proporcione el monto del impuesto: 21%
 #Pago con impuesto: xxxxx
+
+#Prueba de configuracion
