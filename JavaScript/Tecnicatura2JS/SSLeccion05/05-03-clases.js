@@ -60,7 +60,7 @@ console.log(persona2.apellido);
 // console.log(persona2);
 
 // 6.3 hoisting y clases: Parte 1 y 2
-
+//let persona3 = new Persona('Carla', 'Ponce'); esto no se debe hacer
 
 // 6.4 Herencia: Parte 1 y 2  diagrama.uxf
 
