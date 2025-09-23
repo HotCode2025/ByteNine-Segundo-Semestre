@@ -22,6 +22,15 @@ class Persona{
     set apellido(apellido){
         this._apellido = apellido;
     }
+    
+
+    // 7.3 Clase Object, toString, sobreescritura y Polimorfismo
+    // Sobreescribiendo el método de la clase padre (Object)
+    toString(){ // Regresa un String
+        //Se aplica el polimorfismo que significa = multiples formas en tiempo de ejecución
+        // El método que se ejecuta depende si es una referencia de tipo padre o hija
+        return this.nombreCompleto(); 
+    }
 
 }
 
@@ -67,3 +76,10 @@ console.log(persona2.apellido);
 let empleado1 = new Empleado('Maria', 'Gimenez', 'Sistemas');
 console.log(empleado1);
 console.log(empleado1.nombre);
+
+
+
+// 7.3 Clase Object, toString, sobreescritura y Polimorfismo
+// Object.prototype.toString Esta es la manera de acceder a atributos y métodos de manera dinamica
+console.log(empleado1.toString());
+console.log(persona1.toString());
