@@ -14,6 +14,17 @@ class Aritmetica:
     def sumar(self):
         return self.operandoA + self.operandoB
 
+    def resta(self):
+        return self.operandoA - self.operandoB
+
+    def multiplicar(self):
+        return self.operandoA * self.operandoB
+
+    def dividir(self):
+        return self.operandoA / self.operandoB
 
 Aritmetica1 = Aritmetica(5, 3)  # le pasamos los argumentos para los operandos
-print(Aritmetica1.sumar())
+print(f'La suma de los números es: {Aritmetica1.sumar()}')
+print(f'La resta de los números es: {Aritmetica1.resta()}')
+print(f'La multiplicación de los números es: {Aritmetica1.multiplicar()}')
+print(f'La división de los números es: {Aritmetica1.dividir():.2f}')
