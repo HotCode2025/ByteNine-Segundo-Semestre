@@ -1,15 +1,17 @@
-#CLASE 6: Tema Poo Parte 1(15/09) Gustavo
+ #CLASE 6: Tema Poo Parte 1(15/09) Gustavo
 class Persona: #Creamos una clase
 
-    def __init__(self, nombre, apellido, edad):  # Se lo llama método Init Dunder
+    def __init__(self, nombre, apellido, edad, *args, **kwargs):  # Se lo llama método Init Dunder
         self.nombre = nombre
         self.apellido = apellido
         self.edad = edad
+        self.args = args
+        self.wkargs = kwargs
 
 # Punto 8.8 Metodos de Instancia: Definimos un metodo
 
     def mostrar_detalle(self): # Self es igual a this
-        print(f'Persona:{self.nombre} {self.apellido} {self.edad}')
+        print(f'La clase Persona tiene los siguientes datos: {self.nombre} {self.apellido} {self.edad}, la direccion es: {self.args}, los adtos importantes son: {self.wkargs}')
 
 
 persona1 = Persona('Ariel', 'Betancud', 40) # Necesitamos enviar argumentos
@@ -51,3 +53,7 @@ persona2.mostrar_detalle()
 
 # Punto 9.1 Palabra reservada self y atributos de instancia
 Persona.mostrar_detalle(persona1) # Debemos pasarle una referencia para el self o dará error
+
+# 9.7 Metodo init Dunder con argumentos variables
+persona3 = Persona("Rogelio","Romero", 22, "Telefono","2664761270", "Calle Lopes","4283","Manzana", 77, "Casa", 18, Altura=1.83, Peso=105, CFavorito="Amarillo", Auto="Fiat", Modelo=2012)
+persona3.mostrar_detalle()
