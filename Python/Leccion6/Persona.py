@@ -1,9 +1,10 @@
  #CLASE 6: Tema Poo Parte 1(15/09) Gustavo
 class Persona: #Creamos una clase
 
-    def __init__(self, nombre, apellido, edad, *args, **kwargs):  # Se lo llama método Init Dunder
+    def __init__(self, nombre, apellido, dni, edad, *args, **kwargs):  # Se lo llama método Init Dunder
         self.nombre = nombre
         self.apellido = apellido
+        self._dni = dni # Este atributo esta encapsulado de una manera sugerida
         self.edad = edad
         self.args = args
         self.wkargs = kwargs
@@ -11,10 +12,10 @@ class Persona: #Creamos una clase
 # Punto 8.8 Metodos de Instancia: Definimos un metodo
 
     def mostrar_detalle(self): # Self es igual a this
-        print(f'La clase Persona tiene los siguientes datos: {self.nombre} {self.apellido} {self.edad}, la direccion es: {self.args}, los adtos importantes son: {self.wkargs}')
+        print(f'La clase Persona tiene los siguientes datos: {self.nombre} {self.apellido} {self._dni} {self.edad}, la direccion es: {self.args}, los adtos importantes son: {self.wkargs}')
 
 
-persona1 = Persona('Ariel', 'Betancud', 40) # Necesitamos enviar argumentos
+persona1 = Persona('Ariel', 'Betancud', 32455987, 40) # Necesitamos enviar argumentos
 # print(persona1.nombre)
 # print(persona1.apellido)
 # print(persona1.edad)
@@ -23,7 +24,7 @@ persona1 = Persona('Ariel', 'Betancud', 40) # Necesitamos enviar argumentos
 
 #Punto: 8.4 Creamos mas objetos en una clase
 print(f"El objeto 1  de la clase Peronsa es: {persona1.nombre} {persona1.apellido} {persona1.edad}")
-persona2 = Persona('Osvaldo', 'Giordanini', 45)
+persona2 = Persona('Osvaldo', 'Giordanini', 30321456, 45)
 print(f"El objeto 2 de la clase Peronsa es: {persona2.nombre} {persona2.apellido} {persona2.edad}")
 
 
@@ -61,5 +62,7 @@ print(f"Este es el telefono:{persona1.nombre} {persona1.telefono}") # Hemos crea
 # print(persona2.telefono)el objecto persona2 no tiene este atributo, da error
 
 # 9.7 Metodo init Dunder con argumentos variables
-persona3 = Persona("Rogelio","Romero", 22, "Telefono","2664761270", "Calle Lopes","4283","Manzana", 77, "Casa", 18, Altura=1.83, Peso=105, CFavorito="Amarillo", Auto="Fiat", Modelo=2012)
+persona3 = Persona("Rogelio","Romero", 35789456, 22, "Telefono","2664761270", "Calle Lopes","4283","Manzana", 77, "Casa", 18, Altura=1.83, Peso=105, CFavorito="Amarillo", Auto="Fiat", Modelo=2012)
 persona3.mostrar_detalle()
+# print(persona3._dni) # Esto no se debe utilizar (esta encapsulado), esto dice que lo desconocemos python
+# persona3.__nombre # Esta totalmente encapsulado
