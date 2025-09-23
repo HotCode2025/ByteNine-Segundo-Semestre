@@ -7,7 +7,8 @@ class Persona: #Creamos una clase
         self.edad = edad
 
 # Punto 8.8 Metodos de Instancia: Definimos un metodo
-    def mostrar_detalle(self):
+
+    def mostrar_detalle(self): # Self es igual a this
         print(f'Persona:{self.nombre} {self.apellido} {self.edad}')
 
 
@@ -45,6 +46,8 @@ print(f"El objeto 1 modificado de la clase Peronsa es: {persona1.nombre} {person
 
 
 #Punto 8.8 Metodos de Instancia: Definimos un método.
-persona1.mostrar_detalle()
+persona1.mostrar_detalle() # La referencia en este caso se pasa de manera automatica
 persona2.mostrar_detalle()
 
+# Punto 9.1 Palabra reservada self y atributos de instancia
+Persona.mostrar_detalle(persona1) # Debemos pasarle una referencia para el self o dará error
