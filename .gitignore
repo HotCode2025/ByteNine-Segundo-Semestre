@@ -13,3 +13,5 @@ __pycache__/
 #Ignorar archivos de sistema macOS y windows
 .Ds_Store
 Thumbs.db
+
+desktop.ini
