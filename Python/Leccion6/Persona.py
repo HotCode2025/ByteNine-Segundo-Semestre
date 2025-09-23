@@ -54,6 +54,12 @@ persona2.mostrar_detalle()
 # Punto 9.1 Palabra reservada self y atributos de instancia
 Persona.mostrar_detalle(persona1) # Debemos pasarle una referencia para el self o dará error
 
+# Punto 9.2 Crear Atributos desde  un Objeto
+persona1.telefono = "44445555289"
+print(f"Este es el telefono:{persona1.nombre} {persona1.telefono}") # Hemos creado unb atributo de un objeto
+
+# print(persona2.telefono)el objecto persona2 no tiene este atributo, da error
+
 # 9.7 Metodo init Dunder con argumentos variables
 persona3 = Persona("Rogelio","Romero", 22, "Telefono","2664761270", "Calle Lopes","4283","Manzana", 77, "Casa", 18, Altura=1.83, Peso=105, CFavorito="Amarillo", Auto="Fiat", Modelo=2012)
 persona3.mostrar_detalle()
