@@ -22,7 +22,9 @@ class Persona{
     set apellido(apellido){
         this._apellido = apellido;
     }
-    
+    nombreCompleto(){
+        return this._nombre + ' ' + this._apellido;
+    }
 
     // 7.3 Clase Object, toString, sobreescritura y Polimorfismo
     // Sobreescribiendo el método de la clase padre (Object)
@@ -75,8 +77,9 @@ console.log(persona2.apellido);
 
 let empleado1 = new Empleado('Maria', 'Gimenez', 'Sistemas');
 console.log(empleado1);
-console.log(empleado1.nombre);
+console.log(empleado1.nombreCompleto());
 
+// 7.1 Heredar métodos y sobreescritura de métodos
 
 
 // 7.3 Clase Object, toString, sobreescritura y Polimorfismo
