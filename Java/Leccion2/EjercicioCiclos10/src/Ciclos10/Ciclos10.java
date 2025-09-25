@@ -4,17 +4,21 @@ Punto: 6.8 Ejercicio Ciclos 10: Con Clase Scanner y JOption*/
 Hacerlo con la clase Scanner*/
 package ciclos10;
 
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 public class Ciclos10 {
     public static void main(String[] args) {
-        // Creamos un objeto de la clase Ejercicio10
-        Ejercicio10 ejercicio = new Ejercicio10();
+        Scanner entrada = new Scanner(System.in);
+        int suma = 0;
 
-	// Se llama al método pedirNumeros que hace la suma
-        int suma = ejercicio.pedirNumeros();
-        
-        // Mostramos el resultado con JOptionPane
-        JOptionPane.showMessageDialog(null, "La suma total es: " + suma);
+        for (int i = 1; i <= 10; i++) {
+            System.out.print("Digite el número " + i + ": ");
+            int numero = entrada.nextInt();
+            suma += numero;
+        }
+
+        System.out.println("\nLa suma total es: " + suma);
+
+        entrada.close();
     }
 }
