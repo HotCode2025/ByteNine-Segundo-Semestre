@@ -1,41 +1,75 @@
-#Ignora carpetas y archivos de configuracion 
-.idea/
-*.iml
+# --- 1. IGNORAR ARCHIVOS DE SISTEMA ---
 
-# Ignorar carpetas de entornos virtuales  
-venv/
-.venv/
-
-#Ignorar archivos generados por Python
-__pycache__/
-*.pyc
-
-#Ignorar archivos de sistema macOS y windows
+# Archivos generados por sistemas operativos (Windows / macOS)
 .Ds_Store
 Thumbs.db
-
 desktop.ini
 
-# NetBeans 15 specific
-/.cache/
-/.nb-gradle-properties
-/.nb-gradle-version
+# --- 2. REGLAS UNIVERSALES DE COMPILACIÓN (JAVA / JS) ---
 
-# Build files
+# Carpetas de salida de la compilación/empaquetado
+*/build/
+/dist/
+/out/
+
+# Archivos de compilación de Java (bytecode)
+*.class
+
+# Archivos de paquete y distribución (Archivos grandes)
 *.jar
 *.war
 *.ear
 *.zip
 *.tar.gz
 
-# --- REGLAS AÑADIDAS PARA LIMPIEZA UNIVERSAL ---
+# --- 3. REGLAS DE JAVA / APACHE NETBEANS / ECLIPSE ---
 
-# 1. Ignorar cualquier carpeta llamada 'build' en el proyecto
-*/build/
+# NetBeans specific
+/.cache/
+/.nb-gradle-properties
+/.nb-gradle-version
 
-# 2. Archivos compilados (Clases de Java)
-*.class
-
-# 3. Archivos de Configuración Local del IDE (private.properties/xml)
+# Carpetas y archivos de Configuración Local de NetBeans que causaban el problema
+nbproject/private/
 *.properties
 *.xml
+
+# Metadatos de Eclipse (si alguien del equipo usa este IDE)
+.classpath
+.project
+.settings/
+
+# --- 4. REGLAS DE PYTHON / PYCHARM ---
+
+# Ignorar carpetas de entornos virtuales
+venv/
+.venv/
+
+# Ignorar archivos generados por Python
+__pycache__/
+*.pyc
+
+# Ignorar carpeta de configuración personal de PyCharm/IntelliJ
+.idea/
+
+# Archivos de módulo de PyCharm/IntelliJ
+*.iml
+
+# --- 5. REGLAS DE JAVASCRIPT / NODE.JS / VISUAL STUDIO CODE ---
+
+# Dependencias instaladas (la carpeta más grande)
+node_modules/
+
+# Archivos de entorno y secretos
+.env
+.env.local
+
+# Configuración personal del IDE (Visual Studio Code)
+.vscode/
+
+# Configuración y logs de NPM/Yarn/Depuración
+npm-debug.log*
+yarn-debug.log*
+
+# Archivo de configuración local de Quokka.js
+.quokka
