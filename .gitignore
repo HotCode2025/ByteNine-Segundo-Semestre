@@ -28,4 +28,14 @@ desktop.ini
 *.zip
 *.tar.gz
 
-/Java/Leccion2/EjercicioCiclos10/build/
+# --- REGLAS AÑADIDAS PARA LIMPIEZA UNIVERSAL ---
+
+# 1. Ignorar cualquier carpeta llamada 'build' en el proyecto
+*/build/
+
+# 2. Archivos compilados (Clases de Java)
+*.class
+
+# 3. Archivos de Configuración Local del IDE (private.properties/xml)
+*.properties
+*.xml
