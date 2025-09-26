@@ -5,14 +5,14 @@
 let respuesta;
 
 do {
-    let anio = parseInt(prompt('Ingrese un año y le dire si es bisiesto o no'));
+    let anio = parseInt(console.log('Ingrese un año y le dire si es bisiesto o no'));
 
     if ((anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0)) {
         console.log(`El año ${anio} es bisiesto`);
     } else {
         console.log(`El año ${anio} no es bisiesto`);
     }
-    respuesta = prompt('Desea continuar? (si/no)');
+    respuesta = console.log('Desea continuar? (si/no)');
 } while (respuesta.toLowerCase() == 'si');
 
 console.log('Gracias por participar!');
