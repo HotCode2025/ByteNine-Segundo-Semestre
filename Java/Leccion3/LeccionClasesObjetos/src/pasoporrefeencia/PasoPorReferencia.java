@@ -9,7 +9,7 @@ public class PasoPorReferencia {
         persona1.nombre = "Ester";
         System.out.println("persona1 nombre = "+persona1.nombre);
         cambiarValor(persona1);
-        System.out.println("El cambio que hicimeos en el nombre es: "+persona1.nombre);
+        System.out.println("El cambio que hicimos en el nombre es: "+persona1.nombre);
     }
     
     public static void cambiarValor(Persona persona){ //parámetro por referencia
