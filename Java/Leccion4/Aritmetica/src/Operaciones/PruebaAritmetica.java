@@ -6,7 +6,7 @@ package Operaciones;
 public class PruebaAritmetica {
     public static void main(String[] args) {
         var a = 10; //Variables locales
-        int b = 7;
+        int b = 7;  //Memoria Stack
         miMetodo(); //Llamamos el método nuevo
         //Creamos objeto
         Aritmetica aritmetica1 = new Aritmetica();//llamamos al constructor
@@ -16,6 +16,7 @@ public class PruebaAritmetica {
 
         /*Clase 5; Tema Clases y Objetos Parte 3 Tarea
         Punto: 5.2 Clase Aritmética: Creamos un método, recorremos con Debbug*/
+        //Para almacenar un objeto o atributos se utiliza la memoria heap
         int resultado = aritmetica1.sumarConRetorno();
         System.out.println("resultado = " +resultado);
 
@@ -27,6 +28,8 @@ public class PruebaAritmetica {
 //Punto 6.1 Sobrecarga de metodos
         System.out.println("aritmetica1  a:  "+aritmetica1.a);
         System.out.println("aritmetica1  b:  "+aritmetica1.b);
+        //aritmetica1 = null; Nunca utilizar esto, no debe hacerse
+        //System.gc(); Metodo para limpiar residuos, es pasado, no utilizar
         
         Aritmetica arimetica2 = new Aritmetica(5,8);
         System.out.println("arimetica2 = " + arimetica2.a);
