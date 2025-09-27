@@ -74,3 +74,6 @@ yarn-debug.log*
 # Archivo de configuración local de Quokka.js
 .quokka
 /Java/Leccion4/Aritmetica/build/
+/Java/Leccion1/JavaApplication6/nbproject/private/
+/Java/Leccion1/JavaApplication6/dist/
+/Java/Leccion1/JavaApplication6/build/
