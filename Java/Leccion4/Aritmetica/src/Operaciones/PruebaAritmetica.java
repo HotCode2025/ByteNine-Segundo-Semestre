@@ -25,22 +25,39 @@ public class PruebaAritmetica {
         System.out.println("Resultado usando argumentos = " +resultado);
 
         //Clase 6A:Tema:Programacion orientada a objetos Parte 4
-//Punto 6.1 Sobrecarga de metodos
+        //Punto 6.1 Sobrecarga de metodos
         System.out.println("aritmetica1  a:  "+aritmetica1.a);
         System.out.println("aritmetica1  b:  "+aritmetica1.b);
-        //aritmetica1 = null; Nunca utilizar esto, no debe hacerse
-        //System.gc(); Metodo para limpiar residuos, es pasado, no utilizar
-        
+       
         Aritmetica arimetica2 = new Aritmetica(5,8);
         System.out.println("arimetica2 = " + arimetica2.a);
         System.out.println("arimetica2 = " + arimetica2.b);
-        
+        //aritmetica1 = null; Nunca utilizar esto, no debe hacerse
+        //System.gc(); Metodo para limpiar residuos, es pasado, no utilizar
+        //Punto: 7.1 Uso de la palabra this Parte 1 y crear una clase a continuacion de otra
+        Persona persona = new Persona("Ariel", "Betancud");
+        System.out.println("persona = " + persona);
+        System.out.println("Persona nombre: "+ persona.nombre);
+        System.out.println("Persona apellido: "+ persona.apellido);
         
     }
-    
+    //Modularidad  creamos un nuevo metodo
     public static void miMetodo(){
         //a = 10; //ima variable esta limitada
         System.out.println("Aqui hay otro método");
+    }
+
+}
+//Clase 6B: Tema: Programacion orientada a objetos Parte 5-Tarea
+//Punto: 7.1 Uso de la palabra this Parte 1 y crear una clase a continuacion de otra
+//Creamos una nueva clase
+class Persona{
+    String nombre;
+    String apellido;
+    
+    Persona(String nombre, String apellido){//Constructor
+        this.nombre = nombre;
+        this.apellido = apellido;
     }
 
 }
