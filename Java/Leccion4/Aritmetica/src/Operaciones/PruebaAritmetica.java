@@ -56,8 +56,21 @@ class Persona{
     String apellido;
     
     Persona(String nombre, String apellido){//Constructor
+        super();//Llamada al constructor de la clase Padre object
         this.nombre = nombre;
         this.apellido = apellido;
+        //Punto7.4 uso de la palabra this parte 2
+        System.out.println("Objeto persona usando this: "+ this);
     }
 
+}
+class Imprimir{
+    public Imprimir (){
+        super(); //El constructor de la clase padre, para reservar memoria
+    }
+    
+    public void imprimir(Persona persona){
+        System.out.println("Persona desde la clase imprimir: "+persona);
+        System.out.println("Impresion del objeto actual (this): "+this);
+    }
 }
