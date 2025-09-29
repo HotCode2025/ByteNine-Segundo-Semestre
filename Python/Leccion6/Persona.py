@@ -9,10 +9,44 @@ class Persona: #Creamos una clase
         self.args = args
         self.wkargs = kwargs
 
+        # Getters
+        @property
+        def nombre(self):
+            return self._nombre
+
+        @property
+        def apellido(self):
+            return self._apellido
+
+        @property
+        def dni(self):
+            return self._dni
+
+        @property
+        def edad(self):
+            return self._edad
+
+        # Setters
+        @nombre.setter
+        def nombre(self, nuevo_nombre):
+            self._nombre = nuevo_nombre
+
+        @apellido.setter
+        def apellido(self, nuevo_apellido):
+            self._apellido = nuevo_apellido
+
+        @dni.setter
+        def dni(self, nuevo_dni):
+            self._dni = nuevo_dni
+
+        @edad.setter
+        def edad(self, nueva_edad):
+            self._edad = nueva_edad
+
 # Punto 8.8 Metodos de Instancia: Definimos un metodo
 
     def mostrar_detalle(self): # Self es igual a this
-        print(f'La clase Persona tiene los siguientes datos: {self.nombre} {self.apellido} {self._dni} {self.edad}, la direccion es: {self.args}, los adtos importantes son: {self.wkargs}')
+        print(f'La clase Persona tiene los siguientes datos: {self.nombre} {self.apellido} {self._dni} {self.edad}, la direccion es: {self.args}, los datos importantes son: {self.wkargs}')
 
 
 persona1 = Persona('Ariel', 'Betancud', 32455987, 40) # Necesitamos enviar argumentos
@@ -37,7 +71,7 @@ print(f"El objeto 2 de la clase Peronsa es: {persona2.nombre} {persona2.apellido
 persona1.nombre = "Liliana"
 persona1.apellido = "Buccella"
 persona1.edad = 40
-print(f"El objeto 1 modificado de la clase Peronsa es: {persona1.nombre} {persona1.apellido} {persona1.edad}")
+print(f"El objeto 1 modificado de la clase Persona es: {persona1.nombre} {persona1.apellido} {persona1.edad}")
 
 
 #Punto 8.7: Metodos de instancia.Crear un UML.(Tarea diagramar )
@@ -66,3 +100,27 @@ persona3 = Persona("Rogelio","Romero", 35789456, 22, "Telefono","2664761270", "C
 persona3.mostrar_detalle()
 # print(persona3._dni) # Esto no se debe utilizar (esta encapsulado), esto dice que lo desconocemos python
 # persona3.__nombre # Esta totalmente encapsulado
+
+# Tarea 10.3
+
+# Creamos tres objetos más
+persona4 = Persona("María", "Pérez", 40256789, 30)
+persona5 = Persona("Juan", "López", 39234567, 28)
+persona6 = Persona("Carla", "Fernández", 41234567, 35)
+
+# Mostramos detalles originales
+print("\n--- Antes de modificaciones ---")
+persona4.mostrar_detalle()
+persona5.mostrar_detalle()
+persona6.mostrar_detalle()
+
+# Modificamos con setters
+persona4.nombre = "Mariana"
+persona5.apellido = "Gómez"
+persona6.edad = 36
+
+# Mostramos detalles modificados
+print("\n--- Después de modificaciones ---")
+persona4.mostrar_detalle()
+persona5.mostrar_detalle()
+persona6.mostrar_detalle()
