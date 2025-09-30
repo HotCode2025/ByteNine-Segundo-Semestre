@@ -57,6 +57,8 @@ class Persona{
     
     Persona(String nombre, String apellido){//Constructor
         super();//Llamada al constructor de la clase Padre object
+        //Imprimir imprimir = new Imprimir();
+        new Imprimir().imprimir(this);
         this.nombre = nombre;
         this.apellido = apellido;
         //Punto7.4 uso de la palabra this parte 2
