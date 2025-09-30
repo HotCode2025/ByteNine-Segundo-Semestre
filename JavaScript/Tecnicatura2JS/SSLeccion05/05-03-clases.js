@@ -47,7 +47,12 @@ class Empleado extends Persona{ // Clase hija
     set departamento(departamento){
         this._departamento = departamento;
     }
-
+//   
+// 7.2 Sobre Escritura
+//
+nombreCompleto(){
+    return super.nombreCompleto()+",  "+this._departamento; 
+    } 
 }
 
 let persona1 = new Persona('Martín', 'Perez');
@@ -80,6 +85,8 @@ console.log(empleado1);
 console.log(empleado1.nombreCompleto());
 
 // 7.1 Heredar métodos y sobreescritura de métodos
+
+
 
 
 // 7.3 Clase Object, toString, sobreescritura y Polimorfismo
