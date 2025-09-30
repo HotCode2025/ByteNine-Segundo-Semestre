@@ -38,6 +38,11 @@ class Persona2:
         print("Estamos utilizando el metodo Setter")
         self._edad= edad
 
+    #Clase 8:Punto 10.6
+    def __del__(self):
+        print(f'Persona2: {self._nombre} {self._apellido} {self._edad}')
+
+
 if __name__ == '__main__':
     persona1 = Persona2("Ariel", "Bentancud", "41")
     #Llamamos al metodo Getter
