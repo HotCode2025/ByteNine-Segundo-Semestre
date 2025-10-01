@@ -4,6 +4,7 @@
 class Persona{//Clase Padre
    
     static contadorObjetosPersona = 0; //8.2Atributos staticos
+    email = "Valor default email"; //8.3 Atribujo no estático
 
     constructor(nombre, apellido){
         this._nombre = nombre;
@@ -120,3 +121,8 @@ Empleado.saludar2(empleado1);
 //8.2Atributos staticos
 console.log(Persona.contadorObjetosPersona);
 console.log(Empleado.contadorObjetosPersona);
+
+//8.3 Atributos estáticos vs No estáticos
+consolconsole.log(persona1.email); 
+console.log(empleado1.email);
+//console.log(Persona.email); No se puede acceder desde la clase
