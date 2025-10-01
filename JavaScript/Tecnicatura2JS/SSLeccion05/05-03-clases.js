@@ -123,6 +123,6 @@ console.log(Persona.contadorObjetosPersona);
 console.log(Empleado.contadorObjetosPersona);
 
 //8.3 Atributos estáticos vs No estáticos
-consolconsole.log(persona1.email); 
+console.log(persona1.email); 
 console.log(empleado1.email);
 //console.log(Persona.email); No se puede acceder desde la clase
