@@ -3,14 +3,14 @@
 // 6.1 Sintaxis de Clases en JavaScript: Parte 1 y 2 
 class Persona{//Clase Padre
    
-    static contadorObjetosPersona = 0; //8.2Atributos staticos
-    email = "Valor default email"; //8.3 Atribujo no estático
+    static contadorPersonas = 0; //8.2Atributos staticos
+    //email = "Valor default email"; //8.3 Atribujo no estático
 
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
-        Persona.contadorObjetosPersona++;//8.2Atributos staticos
-        console.log('Se incrementa el contador: '+Persona.contadorObjetosPersona);//8.2Atributos staticos
+        this.idPersona = ++Persona.contadorPersonas;
+        //console.log('Se incrementa el contador: '+Persona.contadorObjetosPersona);//8.2Atributos staticos
     }
 // 6.2 Método Get y Set: Parte Get y Parte Set
     get nombre(){
@@ -29,7 +29,7 @@ class Persona{//Clase Padre
         this._apellido = apellido;
     }
     nombreCompleto(){
-        return this._nombre + ' ' + this._apellido;
+        return this.idPersona+' '+this._nombre + ' ' + this._apellido;
     }
 
     // 7.3 Clase Object, toString, sobreescritura y Polimorfismo
@@ -126,3 +126,10 @@ console.log(Empleado.contadorObjetosPersona);
 console.log(persona1.email); 
 console.log(empleado1.email);
 //console.log(Persona.email); No se puede acceder desde la clase
+console.log(persona1.toString());
+console.log(persona2.toString());
+console.log(empleado1.toString());
+console.log(Persona.contadorPersonas);
+let persona3 = new Persona('Carla', 'Pertosi');
+console.log(persona3.toString());
+console.log(Persona.contadorPersonas);
