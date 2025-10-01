@@ -34,6 +34,17 @@ class Persona{
         return this.nombreCompleto(); 
     }
 
+    //8.1 Palabra static con métodos: Parte 1 y 2
+
+    static saludar(){
+        console.log("Saludos desde este metodo static");
+    }
+
+    static saludar2(persona){
+        console.log(persona.nombre + " " + persona.apellido);
+    }
+
+
 }
 
 class Empleado extends Persona{ // Clase hija
@@ -93,3 +104,10 @@ console.log(empleado1.nombreCompleto());
 // Object.prototype.toString Esta es la manera de acceder a atributos y métodos de manera dinamica
 console.log(empleado1.toString());
 console.log(persona1.toString());
+
+// persona1.saludar(); no se utuliza desde el objeto
+Persona.saludar();
+Persona.saludar2(persona1);
+
+Empleado.saludar();
+Empleado.saludar2(empleado1);
