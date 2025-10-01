@@ -1,10 +1,15 @@
 // let persona3 = new Persona('Carla', 'Ponce'); esto no se debe hacer: Persona is not defined
 
 // 6.1 Sintaxis de Clases en JavaScript: Parte 1 y 2 
-class Persona{
+class Persona{//Clase Padre
+   
+    static contadorObjetosPersona = 0; //8.2Atributos staticos
+
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
+        Persona.contadorObjetosPersona++;//8.2Atributos staticos
+        console.log('Se incrementa el contador: '+Persona.contadorObjetosPersona);//8.2Atributos staticos
     }
 // 6.2 Método Get y Set: Parte Get y Parte Set
     get nombre(){
@@ -111,3 +116,7 @@ Persona.saludar2(persona1);
 
 Empleado.saludar();
 Empleado.saludar2(empleado1);
+
+//8.2Atributos staticos
+console.log(Persona.contadorObjetosPersona);
+console.log(Empleado.contadorObjetosPersona);
