@@ -31,8 +31,7 @@ desktop.ini
 
 # Carpetas y archivos de Configuración Local de NetBeans que causaban el problema
 nbproject/private/
-*.properties
-*.xml
+
 
 # Metadatos de Eclipse (si alguien del equipo usa este IDE)
 .classpath
