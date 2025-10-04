@@ -25,15 +25,17 @@
 *getIdEmpleado(): int
 *getSueldo(): double
 *setSueldo(double): void
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>390</y><w>210</w><h>150</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>390</y><w>210</w><h>170</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
 --
 -idCliente: int
 -fechaRegistro: Date
 -vip: boolean
 --
-*getIdCliente(): int
+*idCkiente()
+*setidCliente(int): void
+*getFechaRegistro(): Date
 *setFechaRegistro(Date): void
-*getidVip(): boolean
+*idVip(): boolean
 *setidVip(boolean): void
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>280</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=()-
 &lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>280</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=()-
