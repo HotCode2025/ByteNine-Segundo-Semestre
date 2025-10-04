@@ -1,331 +1,263 @@
-# PROGRAMACION EN JAVA
+# PROGRAMACION EN JAVA: ByteNine-Segundo-Semestre
 
-Este repositorio es parte de la organización **HotCode-2025** y fue creado por el equipo **ByteNine**. Su propósito es almacenar los ejercicios y proyectos del Lenguaje Java, diseñados para ser trabajados en IDE **Apache NetBeans** y gestionados con **Java Ant** y **Java Aplication** .
+Este repositorio es parte de la organización **HotCode-2025** y fue creado por el equipo **ByteNine**. Su propósito es almacenar los ejercicios y proyectos del Lenguaje **Java**, diseñados para ser trabajados en el IDE **Apache NetBeans 15**, gestionados con **Java Ant** y **Java Application**.
 
-## Colaboradores
+## EQUIPO BYTENINE (Team Bytenine)
 
-- [Gabriel Santarena](https://github.com/GabrielSantarena)  -> Rol
-- [Damián Adolfo Ponce de León](https://github.com/Clarionda) Rol
-- [Gustavo Ariel Rodríguez](https://github.com/GustavoRodriguez79) Rol
-- [Agus Santarena](https://github.com/AgusSantarena) Rol
-- [Maximiliano Morales](https://github.com/MaxiMorales96) Rol
-- [Nahuel Spikerman](https://github.com/nawe2) Rol
-- [Santiago](https://github.com/santy171004) Rol
-- [Valeria Lrdín](https://github.com/Vale10Lar) Rol
+La siguiente tabla detalla los roles de cada colaborador en la organización y sus responsabilidades específicas por lenguaje o área de trabajo:
 
+| Nombre | Rol en la Organización | Rol Específico | GitHub |
+| :--- | :--- | :--- | :--- |
+| **Agustín Santarena** | **Owner** | Mantenedor Principal y Revisor de Código JavaScript | [@AgusSantarena](https://github.com/AgusSantarena) |
+| Gabriel Santarena | Colaborador | Mantenedor Principal y Revisor de Código JavaScript | [@GabrielSantarena](https://github.com/GabrielSantarena) |
+| Maximiliano Morales | Colaborador | **Mantenedor Principal y Revisor de Código Java** | [@MaxiMorales96](https://github.com/MaxiMorales96) |
+| Valeria Lrdín | Colaborador | **Mantenedor Principal y Revisor de Código Java** | [@Vale10Lar](https://github.com/Vale10Lar) |
+| Gustavo Ariel Rodríguez | Colaborador | Mantenedor Principal y Revisor de Código Python | [@GustavoRodriguez79](https://github.com/GustavoRodriguez79) |
+| Santiago | Colaborador | Mantenedor Principal y Revisor de Código Python | [@santy171004](https://github.com/santy171004) |
+| Damián Adolfo Ponce de León | Colaborador | Mantenedor Principal y Revisor de Base de Datos | [@Clarionda](https://github.com/Clarionda) |
+| Nahuel Spikerman | Colaborador | Mantenedor Principal y Revisor de Base de Datos | [@nawe2](https://github.com/nawe2) |
 
-## Reglas de Oro para Colaborar
+---
+## 💻 HERRAMIENTAS PRINCIPALES (Requeridas)
 
-Para evitar conflictos y asegurar que todos trabajemos en la misma versión del proyecto, es **fundamental** seguir estos pasos siempre:
+La siguiente tabla resume las herramientas obligatorias para el desarrollo y la colaboración.
 
-1.  **Antes de empezar a trabajar:** Sincronizar el repositorio para obtener los últimos cambios de nuestros compañeros del equipo    ByteNine.
-2.  **Después de terminar de trabajar:** Subir nuestros propios cambios para que los demás podamos verlos.
+| Icono | Herramienta | Versión Requerida | Link de Descarga / Instalación |
+| :---: | :--- | :--- | :--- |
+| ☕ | **Java Development Kit (JDK)** | 15 o superior | [Descarga e Instalación Oracle/Open JDK](https://openjdk.java.net/) |
+| 💻 | **Apache NetBeans IDE** | 15 o superior | [Página Oficial de Descarga](https://netbeans.apache.org/download/index.html) |
+| 🐙 | **GitHub Desktop** | Última versión | [Descarga e Instrucciones](https://desktop.github.com/) |
+
+---
+### REGLA CLAVE: Archivos de Proyecto (Para que NetBeans funcione)
+
+Para evitar que los colaboradores tengan que reconfigurar el proyecto, es fundamental entender qué archivos del IDE deben subir:
+
+| Archivo/Carpeta | Contiene | ¿DEBE Subirse (Commit/Push)? | ¿Por qué? |
+| :--- | :--- | :--- | :--- |
+| **`nbproject/`** | Estructura y Metadata del Proyecto. | **SÍ** | **Permite abrir el proyecto en NetBeans sin error.** |
+| **`build.xml`** | Instrucciones de compilación de Ant. | **SÍ** | **Necesario para compilar correctamente.** |
+| **`nbproject/private/`** | Configuraciones **personales** y temporales. | **NO** | Está ignorado por `.gitignore`. |
+| **`build/` o `/dist/`** | Archivos **compilados** (`.class`, `.jar`). | **NO** | Está ignorado por `.gitignore` (son archivos grandes). |
+
+**Advertencia:** Si solo suben la carpeta `/src/`, el proyecto no se podrá abrir. Asegurarse de incluir **`build.xml`** y la carpeta **`nbproject/`** (sin la carpeta `private/`).
 
 ---
 
-## Rama de Trabajo
+## INTRUCCIONES DE EJECUCIÓN
 
-Todos los colaboradores debemos  trabajar en la rama **`Corrección-Repo`**. La rama `main` se utiliza exclusivamente para el código final y solo lo modificaremos cuando todos estemos de acuerdo con el trabajo realizado en el repositorio.
+Para ejecutar correctamente los proyectos, siga estos pasos:
 
-## Estructura para Java
+1.  **Requisitos:** Asegúrese de tener instalado **JDK 15+** y **Apache NetBeans 15**.
+2.  **Clonar:** Clone este repositorio.
+3.  **Abrir Proyecto:** En NetBeans, seleccione **`File > Open Project`** (Abrir Proyecto).
+4.  **Selección:** Navegue hasta la carpeta `/Java/` y seleccione la carpeta de la lección que desea evaluar (Ejemplo: `/Java/Leccion5/Encapsulamiento`).
+    * *Nota:* Gracias a que subimos las carpetas `nbproject/` y `build.xml`, NetBeans debe reconocer el proyecto automáticamente.
+5.  **Ejecutar:** Haga clic derecho en el proyecto abierto y seleccione **`Run`** (Ejecutar) para iniciar el código.
+    * Todo el código final está asegurado en la rama **`main`** para revisión.
 
-La estructura de nuestro proyecto sigue un camino específico para Java, comenzando desde la carpeta principal del repositorio.
+---
+---
 
-- **Carpeta Raíz:** `TecnicaturaGit-SS-ByteNine`
-  - **Repositorio:** `ByteNine-Segundo-Semestre`
-    - **Carpeta del Lenguaje:** `Java`
-      - **Carpeta de Lección:** `Leccion[Número de Lección]`
 
-Dentro de cada carpeta de lección se encuentra la estructura de un proyecto de Apache NetBeans con Ant:
+## ⚠️ REGLAS FUNDAMENTALES PARA LA COLABORACIÓN
 
-/Leccion[Número de Leccion]
-├── build.xml
-├── nbproject/
+Herramientas Clave: Apache NetBeans 15 y GitHub Desktop.
+
+1.  **Sincronización (Pull) Obligatoria:**
+    * **Siempre** haz clic en **"Fetch Origin"** y luego en **"Pull Origin"** en GitHub Desktop antes de comenzar cualquier tarea o escribir código.
+    * **Rama de Trabajo:** Asegúrate de estar en la rama **`Corrección-Repo`**.
+2.  **Commit y Push Consistentes:**
+    * Una vez que finalices y pruebes tu tarea, escribe un mensaje descriptivo, haz **`Commit`** y luego **"Push Origin"** a la rama **`Corrección-Repo`**.
+3.  **Gestión del `.gitignore` (Prohibido Modificar):**
+    * **Prohibido** modificar o eliminar entradas del archivo **`.gitignore`** sin consenso de todos los miembros del equipo Bytenine .
+
+
+
+## 🛠️ FLUJO DE TRABAJO ESPECIFICO PARA LENGUAJE JAVA
+
+### Flujo de Ramas y Roles
+
+* **Rama de Desarrollo Activa:** **`Corrección-Repo`**. Toda la actividad de clases debe ocurrir únicamente aquí.
+* **Rama Principal (Estable):** **`main`**. Contiene solo código estable y final.
+* **Encargado de la Fusión a `main`:** **Solo el *Owner*** Agustin Santarena → Owner ([@AgusSantarena](https://github.com/AgusSantarena)) tiene permiso para fusionar (`merge`) los cambios de `Corrección-Repo` hacia la rama `main`.
+
+**Encargados de Revisión:**
+
+* **Mantenedor Principal y Revisor de Codigo:** [Maximiliano Morales](https://github.com/MaxiMorales96)
+* **Mantenedor Principal y Revisor de Código:** [Valeria Lrdín](https://github.com/Vale10Lar)
+
+### Designación y Concurrencia de Actividades
+
+El flujo es **secuencial** para evitar conflictos.
+
+1.  **Asignación de Tareas:**
+    * Las tareas se asignarán mediante un **sorteo**.
+    * **Prioridad:** El trabajo en clases (Ejercicios o Tareas) con**fecha de entrega el mismo día antes de las 23:00 hs.** es prioritario.
+
+2.  **Gestión de la Concurrencia (Trabajo Secuencial):**
+    * **No iniciar, modificar o interrumpir** el trabajo de otro desarrollador.
+    * El flujo es estrictamente **secuencial**: Un desarrollador comienza y finaliza su tarea. **Solo después de la revisión y aprobación** se informará al siguiente compañero que puede comenzar.
+
+### Proceso de Revisión (GitHub Issues y Pull Requests)
+
+1.  **Registro y Asignación:** Usaremos el **tablero Scrum (Projects/Issues)** de GitHub.
+2.  **Revisión de Código (Pull Request):** Al finalizar tu tarea, abre un **Pull Request** hacia la rama `Corrección-Repo`.
+3.  **Aprobación/Rechazo:**
+    * El Revisor gestionará el desempeño.
+    * Si hay errores, el Revisor notificará al compañero desarrollador, quien deberá **corregir el error**, subir los nuevos cambios y solicitar una nueva revisión.
+
+---
+
+## 🏗️ ESTRUCTURA DEL REPOSITORIO Y CONVENCIONES
+
+La estructura del proyecto es clave para la organización de las lecciones.
+
+### Estructura de Carpetas
+
+La estructura debe seguir este patrón a partir de la carpeta raíz del repositorio. **Los archivos marcados flecha son obligatorios para abrir el proyecto en NetBeans:**
+
+/ByteNine-Segundo-Semestre
+└── /Java
+└── /Leccion[Número de Lección]  <-- Carpeta contenedora del proyecto
+├── build.xml               <-- OBLIGATORIO →
+├── nbproject/              <-- OBLIGATORIO → (Contiene la estructura del proyecto)
 └── /src
 └── /nombre_del_paquete
 └── NombreDeLaClase.java
 
-## Contenido por Lección
-
-### Lección [Número de Lección, ej Leccion2]:
-- **Proyectos y Clases:**
-  - **Nombre del Proyecto:** `[Nombre del Proyecto, ej. CicloWhile]`
-  - **Paquete (`Source Package`):** Dentro de la carpeta `src` se crea un paquete`[Nombre del Paquete, ej. CicloWhile]`.
-  - **Clase Principal:** Dentro del paquete se crea la clase principal del código`[Nombre de la Clase, ej. EjercicioCiclos01]`.
-
-  **Recordar** 
-  - El punto (.)java se autocompleta, pero asegurarse que este.
-  - Respetar los nombres de los Proyectos, Paquetes y Clases(la creaccion sera rotativa).
-
-### Flujo de Trabajo Diario en Java
-
-**Importante:** GitHub Desktop no abre el IDE. Primero debes sincronizar el repositorio y luego abrir el proyecto directamente en Apache NetBeans.
-
-1.  **Sincronizar el repositorio.** 
-    * Al inicio de cada clase, abre GitHub Desktop y haz clic en el botón **`Fetch origin`** (o **`Pull origin`**) en la parte     superior. Esto descargará los últimos cambios de la rama `Corrección-Repo`.
-
-2.  **Abrir el proyecto en Apache NetBeans:**
-    * Ir a **File** > **Open Project** (en Apache NetBeans) y navega a la carpeta de la lección que quieres trabajar.
-
-3.  **Trabaja en en el  código:**
-    * Realizar las modificaciones de los puntos designados de la clase(en Apache NetBeans) y una vez comprobrobado que esta correcto,   guardalas con ctrl+S.
-4.  * Cuando terminen, regresar a GitHub Desktop.
-
-5.  **Hacer un `commit`.** 
-    * Se vera una lista de los archivos modificados.
-    * En el campo `Summary`, escribir un mensaje claro sobre el trabajo realizado (ej. "Agregado ejercicio 1.1 - Ciclo While").
-    * Hacer clic en **`Commit to Corrección-Repo`**.
-
-6.  **Subir cambios.** 
-    * En la parte superior, hacer clic en el botón **`Push origin`** para enviar el trabajo al repositorio compartido en GitHub.
----
-
-### Detalles Técnicos
-
-- **IDE utilizado:** Apache NetBeans
-- **Notas de ejecución:**
-  - El proyecto se compila y ejecuta automáticamente al darle al botón 'Run' en Apache NetBeans.
-
-###Aqui por ahora esto luego lo cambiamos al general: GITHUB
-### Primeros Pasos ***(Solo una vez)**
-
-### Descarga e Instalación
-
-1.  Ve a la página oficial de GitHub Desktop: `https://desktop.github.com/`
-2.  Haz clic en el botón de descarga.
-3.  Una vez descargado, haz doble clic en el archivo para que la instalación comience automáticamente.
-4.  Cuando abras GitHub Desktop por primera vez, la aplicación te pedirá que inicies sesión en tu cuenta de GitHub. 
-    Haz clic en ***Sign in to GitHub.com*** y sigue las instrucciones en tu navegador para autorizar la aplicación.
-
-### Conectando el Repositorio (Solo una vez)
-
-1.  Abre ***GitHub Desktop***.
-2.  Haz clic en ***File*** > ***Add Local Repository***.
-3.  Navega a la carpeta de tu repositorio: `TecnicaturaGit-SS-ByteNine/ByteNine-Segundo-Semestre`.
-4.  Haz clic en ***Add repository***. La aplicación reconocerá nuestro proyecto.
-5.  En la parte superior, cambia de la rama **`main`** a la rama **`Corrección-Repo`**.
-
-## Guía de Colaboración (GitHub Desktop)
-
-### Reglas de Oro para Colaborar
-
-Para evitar conflictos y asegurar que todos trabajamos en la misma versión del proyecto, es **fundamental** seguir estos pasos siempre:
-
-1.  **Antes de empezar a trabajar:** Sincroniza el repositorio para obtener los ultimos cambios de nuestros compañeros.
-2.  **Después de terminar de trabajar:** Sube tus propios cambios para que los demás puedan verlos.
-
-########
-
-
-### Detalles de Clases Semanales y Asignacion
-
-# CLASE 1
-
-- **Fecha de dictado**: 13-8 
-- **Tema**: ***Ciclos***
-
-- **Puntos a desarrollar**:
-
-***1.1 Comenzamos commiteando todo lo que este pendiente en git***
--  Designacignado a  
--  Estado:
-
-***1.2 Ciclo While***
--  Designacignado a  []()
--  Estado:
-
-***1.3 Ciclo Do while*** 
--  Designacignado a   []()
--  Estado
-
-***1.4 Ciclo For*** 
--  Designacignado a  []()
--  Estado:
-
-***1.5 Palabras break*** 
--  Designacignado a   []()
--  Estado
-
-***1.6 Uso de etiquetas (Labels)*** 
--  Designacignado a   []()
--  Estado:
-
-# CLASE 2
-
-- **Fecha de dictado**: 20-8 
-- **Tema**: ***Ejercicios con ciclos y Crear Clases POO parte 0***
-- **Puntos a desarrollar**:
-
-***2.1 Ejercicio 1 de ciclos en Java con la clase Scanner***
--  Designacignado a   []()
--  Estado:
-
-***2.2.1 Ejercicio 1 de ciclos en Java sin la clase Scanner: PRESENTANDO LA CLASE JOptionPane***
--  Designacignado a   []()
--  Estado:
-
-***2.2 Ejercicio 2 de ciclos en Java con la clase Scanner y con la clase JOptionPane*** 
--  Designacignado a   []()
--  Estado
-
-***2.3 Commitear los ejercicios hechos*** 
--  Designacignado a  []()
--  Estado:
-
-***2.6 Crear clases en Java*** 
--  Designacignado a   []()
--  Estado
-
-
-# CLASE 3
-
-- **Fecha de dictado**: 27-8 
-- **Tema**: ***Clases y Objetos POO parte 1 Solución***
-- **Puntos a desarrollar**:
-
-***3.1 Ejercicio con Ciclos 3 y clase Scanner y JOptionPane***
--  Designacignado a   []()
--  Estado:
-
-***3.2 Ejercicio con Ciclos 4 y clase Scanner y JOptionPane***
--  Designacignado a   []()
--  Estado:
-
-***3.3 Ejercicio con Ciclos 5 y clase Scanner y JOptionPane*** 
--  Designacignado a   []()
--  Estado
-
-***3.4 Commit con Git Bash*** 
--  Designacignado a  []()
--  Estado:
-
-***3.5 Clases y Objetos*** 
--  Designacignado a   []()
--  Estado
-
-
-# CLASE 4
-
-- **Fecha de dictado**: 03-09
-- **Tema**: ***Clases y Objetos Parte 2 Solución***
-- **Puntos a desarrollar**:
-
-***4.1 Métodos***
--  Designacignado a   []()
--  Estado:
-
-***4.2 Creación de un Objeto***
--  Designacignado a   []()
--  Estado:
-
-***4.3 Creación de un Objeto más*** 
--  Designacignado a   []()
--  Estado
-
-***4.4 Commit Con Git Bash*** 
--  Designacignado a  []()
--  Estado:
-
-***4.5 Ejercicio con Ciclos 6 Clase Scanner y JOptionPane*** 
-* Ejercicio 6: Pedir numeros hasta que se tecle un 0, mostrar la suma de todos los numeros introducidos.
--  Designacignado a   []()
--  Estado
-
-***4.6 Creación de Métodos(Creacion carpeta de la Lección 4)*** 
--  Designacignado a   []()
--  Estado
-
-***4.7 Ejercicio con Ciclos 7 Con la Clase Scanner y JOptionPane*** 
-* Ejercicio 7: Pedir numeros hasta que se introduzca uno negativo, y calcular la media
--  Designacignado a   []()
--  Estado
-
-
-# CLASE 5
-
-- **Fecha de dictado**: 10-09
-- **Tema**: ***Clases y Objetos Parte 3 Tarea***
-- **Puntos a desarrollar**:
-
-***5.1 Clase Aritmética: Creamos un objeto***
--  Designacignado a   []()
--  Estado:
-
-***5.2 Clase Aritmética: Creamos un método, recorremos con Debbug***
--  Designacignado a   []()
--  Estado:
-
-***5.3 Paso de argumentos a un método*** 
--  Designacignado a   []()
--  Estado
-
-***5.4 Un método llamando a otro método*** 
--  Designacignado a  []()
--  Estado:
-
-***5.5 Operador this*** 
--  Designacignado a   []()
--  Estado
-
-***5.6 Commit Java con métodos*** 
--  Designacignado a   []()
--  Estado
-
-***5.7 Ejercicio Ciclos 08 con Scanner y JOptionPane*** 
-* Ejercicio 8: Pedir un numero N, y mostrar todos los numeros del 1 al N.
--  Designacignado a   []()
--  Estado
-
-***5.8 Ejercicio Ciclos 09 Con Scanner y JOptionPane*** 
-* Ejercicio 9: Pedir el dia, mes y año de una fecha e indicar si la fecha es correcta. 
-  suponiendo que todos los meses son de 30 dias
--  Designacignado a   []()
--  Estado
-
-***5.9 Último commit en Git Hub para los ejercicios*** 
--  Designacignado a   []()
--  Estado
-
-
-# CLASE 6
-
-- **Fecha de dictado**: 15-09
-- **Tema**: *** ***
-- **Puntos a desarrollar**:
-
-*** ***
--  Designacignado a   []()
--  Estado:
-
-*** ***
--  Designacignado a   []()
--  Estado:
-
-*** *** 
--  Designacignado a   []()
--  Estado
-
-*** *** 
--  Designacignado a  []()
--  Estado:
-
-*** *** 
--  Designacignado a   []()
--  Estado
-
-*** *** 
--  Designacignado a   []()
--  Estado
-
-*** *** 
--  Designacignado a   []()
--  Estado
-
-*** *** 
--  Designacignado a   []()
--  Estado
-
-*** *** 
--  Designacignado a   []()
--  Estado
-
+### Contenido por Lección (Convenciones de Nombres)
+
+Se debe respetar la convención de nombres (la creación será rotativa).
+
+* **Carpeta de Lección:** `Leccion[Número de Lección]` (ejemplo: `Leccion2`).
+* **Nombre del Proyecto (NetBeans):** `[Nombre del Proyecto]` (ejemplo: `CicloWhile`).
+* **Paquete (`Source Package`):** `[Nombre del Paquete]` (ejemplo: `cicloWhile`).
+* **Clase Principal:** `[Nombre de la Clase]` (ejemplo: `EjercicioCiclos01`).
+
+
+## 📚 CONTENIDO DE LAS CLASES(Tabla de Temas)
+
+La siguiente tabla resume el contenido cubierto en cada clase hasta la fecha(**se actualizara cada semana**), detallando la fecha y el tema principal desarrollado.
+
+| Clase | Fecha | Tema Principal | Lección/Proyecto en Repositorio |
+| :---: | :---: | :--- | :--- |
+| **1** | 13-08 | Ciclos | Lección 2 |
+| **2** | 20-08 | Ejercicios con ciclos y Crear Clases POO parte 0 | Lección 2 / Lección 3|
+| **3** | 27-08 | Clases y Objetos POO parte 1 | Lección 2 / Lección 3 |
+| **4** | 03-09 | Clases y Objetos Parte 2| Leccion 2/ Lección 4 |
+| **5** | 10-09 | Clases y Objetos Parte 3 Tarea |Lección 2/Leccion4/Lección 5 |
+| **6A**| 24-09 | Programación Orientada a Objetos Parte 4 |Lección 2/Leccion 3/ Lección 4 |
+| **6B**| 24-09 | Programación Orientada a Objetos Parte 5 |Lección 2/Lección 5 |
+| **8** | 01-10 | Paso de Argumentos y Operador `this` (POO Parte 3) | Lección 5 |
+
+
+
+
+
+## 📖 DETALLE DE CONTENIDO Y PUNTOS DE DESARROLLO
+
+Este listado detalla los puntos específicos cubiertos y desarrollados en cada clase.
+
+## CLASE 1: Ciclos 
+- 1.1 Comenzamos commiteando todo lo que este pendiente en git
+- 1.2 Ciclo While
+- 1.3 Ciclo Do while
+- 1.4 Ciclo For
+- 1.5 Palabras break y continue
+- 1.6 Uso de etiquetas (Labels)
+
+## CLASE 2: Ejercicios con ciclos y Crear Clases POO parte 0 
+- 2.1 Ejercicio 1 de ciclos en Java con la clase `Scanner`
+> **Ejercicio 1**: Leer un numero y mostrar su cuadrado, repetir el proceso hasta que se introduzca un numero negativo.
+- 2.2.1 Ejercicio 1 de ciclos en Java sin la clase Scanner: PRESENTANDO LA CLASE `JOptionPane`
+> **Ejercicio 1**: Leer un numero y mostrar su cuadrado, repetir el proceso hasta que se introduzca un numero negativo
+- 2.2 Ejercicio 2 de ciclos en Java con la clase `Scanner` y con la clase `JOptionPane`
+> **Ejercicio 2**: Leer un numero e indicar si es positivo o negativo.El proceso se repetira hasta que se introduzaca un 0
+- 2.3 Commitear los ejercicios hechos
+- 2.6 Crear clases en Java (Introducción a POO)
+
+## CLASE 3: Clases y Objetos POO parte 1 
+- 3.1 Ejercicio con Ciclos 3 y clase `Scanner` y `JOptionPane`
+> **Ejercicio 3**: Leer números hasta que se introduzca 0.Para cada uno indicar si es par o impar. <br>
+Primero lo hacemos con la clase Scanner y luego con la clase JOptionPane.
+- 3.2 Ejercicio con Ciclos 4 y clase `Scanner` y `JOptionPane`
+> **Ejercicio 4**: Pedir numeros hasta que se teclee uno negativo y mostrar cuantos números se han introducido <br>
+ Lo hacemos con la clase Scanner y luego con la clase JOptionPane.
+- 3.3 Ejercicio con Ciclos 5 y clase `Scanner` y `JOptionPane`
+> **Ejercicio 5**: Realizar un juego para adivinar un número.Para ello generar un número aleatorio entre 0-100  <br>
+y luego ir pidiendo números, indicando si es mayor o menor respecto de N.
+El proceso termina cuando el usuario acierta. Mostramos el numero de intentos hechos.<br>
+Lo hacemos con la clase Scanner y luego con la clase JOptionPane.
+- 3.4 Commit con Git Bash
+- 3.5 Clases y Objetos
+
+## CLASE 4: Clases y Objetos Parte 2
+- 4.1 Métodos
+- 4.2 Creación de un Objeto
+- 4.3 Creación de un Objeto más
+- 4.4 Commit Con Git Bash
+- 4.5 Ejercicio con Ciclos 6 Clase `Scanner` y `JOptionPane` 
+> **Ejercicio 6**: Pedir números hasta que se teclee un 0, mostrar la suma de todos los numeros introducidos.
+- 4.6 Creación de Métodos (Creación de la Lección 4)
+- 4.7 Ejercicio con Ciclos 7 con la Clase `Scanner` y `JOptionPane`: 
+> **Ejercicio 7**: Pedir números hasta que se introduzca uno negativo, y calcular la media.
+ 
+## CLASE 5: Clases y Objetos Parte 3 Tarea
+- 5.1 Clase Aritmética: Creamos un objeto
+- 5.2 Clase Aritmética: Creamos un método, recorremos con Debbug
+- 5.3 Paso de argumentos a un método
+- 5.4 Un método llamando a otro método
+- 5.5 Operador `this`
+- 5.6 Commit Java con métodos
+- 5.7 Ejercicio Ciclos 08 con `Scanner` y `JOptionPane`
+> **Ejercicio 8**: Pedir un número N, y mostrar todos los números del 1 al N.
+- 5.8 Ejercicio Ciclos 09 con `Scanner` y `JOptionPane`: 
+> **Ejercicio 9**:Pedir el día, mes y año de una fecha e indicar si la fecha es correcta <br>
+(suponiendo que todos los meses son de 30 días).
+- 5.9 Último commit en Git Hub para los ejercicios
+
+ 
+## CLASE 6A: Programación Orientada a Objetos Parte 4
+- 6.1 Sobrecarga de métodos
+- 6.2 Alcance de variables
+- 6.3 Engineer Java: Memoria stack y heap, tratamiento de residuos
+- 6.4 Ejercicio: Proyecto Caja
+> **Ejercicio 1**:Crear un Proyecto segun las especificaciones mostradas a continuacion: <br>
+La formula es: *volumen* = **ancho** x **alto** x **profundidad**
+- 6.5 POO: Paso por valor
+- 6.6 POO: Paso por referencia
+- 6.7 Palabras return y null
+- 6.8 Ejercicio Ciclos 10: Con Scanner y JOptionPane
+> **Ejercicio 10**: Pedir 10 números y escribir la suma total. Hacerlo con la clase `Scanner` y `JOptionPane`:  
+
+
+## CLASE 6B: Programación Orientada a Objetos Parte 5
+- 7.1 Uso de la palabra this Parte 1 y crear una clase a continuación de otra
+- 7.2 Ejercicio Ciclos 11 con la clase JOptionPane
+> **Ejercicio 11**: Diseñar un programa que muestre el producto de los primeros 10 numero impares. <br>
+Hacerlo con JOptionPane
+- 7.3 Ejercicio Ciclos 12 con la clase Scanner y JOptionPane
+> **Ejercicio 12**: Pedir un número y calcular su factorial. <br>
+Hacerlo con las dos clases  `Scanner` y `JOptionPane`
+- 7.4 Uso de la palabra this Parte 2
+- 7.5 Uso de la palabra this Parte 3
+- 7.6 Encapsulamiento Parte 1
+- 7.7 Guía para el editor de Diagramas UML
+> En visual studio code
+- 7.8 Commit de esta clase 7 con GitHub escritorio y consejos importantes
+
+
+## CLASE 8: Programación Orientada a Objetos Parte 6
+- 8.1 Encapsulamiento Parte 2: hacer tarea
+> TAREA: Crear otro objeto de tipo Persona, asignar valores de manera inicial e imprimir.<br>
+Luego modificar sus valores y volver a imprimir.
+- 8.2 Encapsulamiento Parte 3
+- 8.3 Método toString
+- 8.4 Contexto estático teoría
+- 8.5 Contexto estático práctica Parte 1
+- 8.6 Contexto estático práctica Parte 2 Ejecutar con debug File
+- 8.7 Ejercicio con contexto estático
+- 8.8 Diagrama de clases UML comenzamos con Herencia: Leccion5
+  **→ Ver Diagrama de Clases (UML Herencia) en GitHub:**
+  [herencia.uxf](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/Correcci%C3%B3n-Repo/Java/Leccion5/herencia.uxf)
