@@ -1,0 +1,15 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>40</y><w>100</w><h>30</h></coordinates><panel_attributes>		Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>60</y><w>80</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>140</y><w>100</w><h>30</h></coordinates><panel_attributes>Empleado</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>80</y><w>100</w><h>30</h></coordinates><panel_attributes>Object</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>190</y><w>100</w><h>30</h></coordinates><panel_attributes>Person</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>300</y><w>100</w><h>30</h></coordinates><panel_attributes>Empleado
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>100</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>210</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>210</y><w>210</w><h>60</h></coordinates><panel_attributes>Persona
+--
+-nombre
+-edad
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>340</y><w>210</w><h>50</h></coordinates><panel_attributes>Sueldo
+--
+-sueldo
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>260</y><w>80</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element></diagram>
