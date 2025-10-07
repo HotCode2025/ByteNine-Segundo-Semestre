@@ -1,0 +1,20 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>110</x><y>400</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Auto&gt;&gt;
+--
+-velocidad: int
+--
+__init__(color,rueda,velocidad)
+__str__()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>400</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Bicicleta&gt;&gt;
+--
+-tipo: str
+--
+__init__(color,rueda,tipo)
+__str__()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>310</y><w>290</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>270;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>160</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Vehiculo&gt;&gt;
+--
+-color: str
+-ruedas: int
+--
+__init__(color, rueda)
+__str__()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>310</y><w>250</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;20;230;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>250</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>320</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>320</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element></diagram>
