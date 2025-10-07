@@ -22,6 +22,10 @@ class Persona: # Esta clase hereda de la clase Object
             self._edad = nueva_edad
         else: print("La edad no puede ser negativa. ")
 
+    def __str__(self):# Overridew = sobreescribir
+        return f'Persona: [ Nombre: {self._nombre}, Edad:  {self._edad} ]'
+
+
 class Empleado(Persona): # Esta clase es hija de la clase persona
     def __init__(self, nombre, edad, sueldo):
         super().__init__(nombre,edad)
@@ -38,6 +42,8 @@ class Empleado(Persona): # Esta clase es hija de la clase persona
         else:
             print("El sueldo no puede ser negativo. ")
 
+    def __str__(self):
+        return f'Empleado: [ Sueldo:{self._sueldo}]{super().__str__()}'
 # Creamos los objetos
 
 empleado1 = Empleado('Ariel', 40, 75000)
