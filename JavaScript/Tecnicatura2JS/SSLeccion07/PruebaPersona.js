@@ -9,7 +9,7 @@ class Persona{
         this._edad = edad;
     }
     
-    get _idPersona(){
+    get idPersona(){
         return this._idPersona;
     }
     get nombre(){
@@ -28,14 +28,10 @@ class Persona{
         return this._edad;
     }
     set edad(edad){
-        this._edad = this.edad;
+        this._edad = edad;
     }
     toString(){
-        return `
-        ${this._idPersona}
-        ${this._nombre}
-        ${this._apellido}
-        ${this._edad}`;
+        return `${this._idPersona} ${this._nombre} ${this._apellido} ${this._edad}`;
     }
         
 }
@@ -99,3 +95,14 @@ class Cliente extends Persona{
         ${this._fechaRegistro}`;
     }
 }
+
+//9.6 Prueba Clase Persona
+//Prueba Clase Persona
+
+let persona1 = new Persona("Juan", "Perez", 32);
+
+console.log(persona1.toString());
+
+let persona2 = new Persona("Carla", "Ortega", 22)
+
+console.log(persona2.toString());
