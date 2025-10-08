@@ -3,10 +3,10 @@ package domain;
 
 public class Persona {
     //Atributos de Herencia
-    private String nombre;
-    private char genero;
-    private int edad;
-    private String direccion;
+    protected String nombre;
+    protected char genero;
+    protected int edad;
+    protected String direccion;
     
     //Constructor vacio: este es para crear onjetos sin necesidad de inicializar los atributos de la clase
     public Persona(){//Constructor 1
