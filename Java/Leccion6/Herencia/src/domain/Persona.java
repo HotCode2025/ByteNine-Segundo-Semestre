@@ -1,22 +1,22 @@
-
 package domain;
 
 public class Persona {
+
     //Atributos de Herencia
     protected String nombre;
     protected char genero;
     protected int edad;
     protected String direccion;
-    
+
     //Constructor vacio: este es para crear onjetos sin necesidad de inicializar los atributos de la clase
-    public Persona(){//Constructor 1
-        
+    public Persona() {//Constructor 1
+
     }
-            
-    public Persona(String nombre){//Constructor 2
+
+    public Persona(String nombre) {//Constructor 2
         this.nombre = nombre;
-        
-    }        
+
+    }
 
     public Persona(String nombre, char genero, int edad, String direccion) {//Constructor 3
         this.nombre = nombre;
@@ -56,12 +56,19 @@ public class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+// 9.7 Modificamos el método toString en la clase padre
 
     @Override
     public String toString() {
-        return "Persona{" + "nombre=" + nombre + ", genero=" + genero + ", edad=" + edad + ", direccion=" + direccion + '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("Persona{");
+        sb.append("nombre=").append(nombre);
+        sb.append(", genero=").append(genero);
+        sb.append(", edad=").append(edad);
+        sb.append(", direccion=").append(direccion);
+        sb.append(", ").append(super.toString());
+        sb.append('}');
+        return sb.toString();
     }
-    
-    
-    
- }
+
+}
