@@ -4,7 +4,6 @@ from Color import Color
 
 class Cuadrado(FiguraGeometrica, Color):
     def __init__(self, lado, color):
-        # inicializamos ambas superclases explícitamente
         FiguraGeometrica.__init__(self, lado, lado)
         Color.__init__(self, color)
 
@@ -12,6 +11,4 @@ class Cuadrado(FiguraGeometrica, Color):
         return self.ancho * self.alto
 
     def __str__(self):
-        return (f'Cuadrado(lado={self.ancho}, '
-                f'area={self.calcular_area()}, '
-                f'color={self.color})')
+        return f'Cuadrado(ancho={self.ancho}, alto={self.alto}, area={self.calcular_area()}, color={self.color})'

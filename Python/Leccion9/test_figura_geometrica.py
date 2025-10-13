@@ -4,38 +4,25 @@
 from Cuadrado import Cuadrado
 from Rectangulo import Rectangulo
 
-def main():
-    print('=== PRUEBAS DE FIGURAS GEOMÉTRICAS ===')
 
-    # Creamos los objetos
-    cuadrado1 = Cuadrado(5, 'Azul')
-    cuadrado2 = Cuadrado(3, 'Rojo')
+print('Creación de objetos clase Cuadrado'.center(50, '_'))
+cuadrado1 = Cuadrado(8, 'Azul')
+cuadrado1.alto = 7
+cuadrado1.ancho = 7
+# print(cuadrado1.ancho)
+# print(cuadrado1.alto)
+print(f'Calculo del área del cuadrado: {cuadrado1.calcular_area()}')
 
-    # 12.7 Tarea Ejercicio Rectangulo
-    rect1 = Rectangulo(4, 6, 'Verde')
-    rect2 = Rectangulo(10, 2, 'Amarillo')
+# MRO = Method Resolution Order
+# print(Cuadrado.mro())
 
-    figuras = [cuadrado1, cuadrado2, rect1, rect2]
+print(cuadrado1)
 
-    # Mostramos los resultados
-    for figura in figuras:
-        print(figura)  # usa __str__ correcto de cada clase
-        print(f"Área calculada: {figura.calcular_area()}")
-        print('-' * 40)
-
-    # Modificamos de Atributos
-    print("\n=== MODIFICACIÓN DE ATRIBUTOS CON PROPERTY ===")
-    cuadrado1.color = 'Celeste'
-    cuadrado1.ancho = 8
-    cuadrado1.alto = 8
-    print(cuadrado1)
-
-    # 12.6 Método MRO: Method Resolution Order
-    print("\nMRO de Cuadrado:", Cuadrado.mro())
-    print("\nMRO de Rectangulo:", Rectangulo.mro())
-
-
-if __name__ == '__main__':
-    main()
+# 12.7 Tarea Ejercicio Rectangulo
+print('Creacion de objeto clase Rectangulo'.center(50, '_'))
+rectangulo1 = Rectangulo(3, 9, 'Verde')
+rectangulo1.ancho = 8
+print(f'Calculo del area del rectangulo: {rectangulo1.calcular_area()}')
+print(rectangulo1)
 
 
