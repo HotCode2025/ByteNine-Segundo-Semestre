@@ -1,5 +1,7 @@
-# 12.2 Creamos las clase padres
-class FiguraGeometrica:
+from abc import ABC, abstractmethod #13.4 Clases abstractas:ABC significa: Abstrac Base Class, convierte una clase en abstracta
+
+#12.2 Creamos la clase padres
+class FiguraGeometrica(ABC):
     def __init__(self, ancho, alto):
         if self._validar_valores(ancho):
             self._ancho = ancho
@@ -35,8 +37,12 @@ class FiguraGeometrica:
         else:
             print(f'Valor erróneo alto: {alto}')
 
-    def __str__(self):
-        return f'FiguraGeometrica(ancho={self._ancho}, alto={self._alto})'
+    @abstractmethod #13.4 Clase Abstracta
+    def calcular_area(self):
+        pass
 
-    def _validar_valores(self, valor):
+    def __str__(self):
+        return f'FiguraGeometrica [Ancho: {self._ancho}, Alto: {self._alto}]'
+
+    def _validar_valores(self, valor): #Metodo encapsulado
         return True if 0 < valor < 10 else False
