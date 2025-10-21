@@ -31,4 +31,6 @@ class Producto:
 
 if __name__ == '__main__': # Solo será visible se la prueba se ejecuta desde aquí
     producto1 = Producto('Camiseta', 100.00)
+    print(producto1)
     producto2 = Producto('Pantalon', 150.00)
+    print(producto2)
