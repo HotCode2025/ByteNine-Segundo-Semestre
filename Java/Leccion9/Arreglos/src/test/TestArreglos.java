@@ -10,5 +10,7 @@ public class TestArreglos {
         
         System.out.println("edades = " + edades);
         
+        edades[0] = 17;
+        System.out.println("edades 0 = " + edades[0]);
     }
 }
