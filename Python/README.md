@@ -162,16 +162,16 @@ La siguiente tabla resume el contenido cubierto en cada clase hasta la fecha (**
 | **3** | 25-08 | Colecciones Parte 3: Pilas, Colas y Ejercicios | Lección 3 |
 | **4A** | 01-09 | Ejercicios de Colecciones y Matemáticas | Lección 4 |
 | **4B** | 01-09 | Funciones en Python y Ejercicios | Lección 4 |
-| **5** | 08-09 | Funciones Parte 2: Argumentos Variables | Lección 5 |
-| **6** | 15-09 | Funciones Recursivas Parte 3 | Lección 6 |
-| **7** | 22-09 | POO Parte 1: Creación de Clases y Objetos | Lección 7 |
-| **8** | 29-09 | POO Parte 2: Encapsulamiento | Lección 8 |
-| **9** | 06-10 | POO Parte 3: Métodos set & get | Lección 9 |
-| **10A** | 13-10 | POO Parte 4: Herencia | Lección 10 |
-| **10B** | 13-10 | POO Parte 5: Herencia Múltiple | Lección 10 |
-| **11A** | 20-10 | POO Parte 6: Clases Abstractas y Estáticas | Lección 11 |
-| **11B** | 20-10 | POO Parte 7: Diseño y Contexto Estático | Lección 11 |
-| **12** | 20-10 | POO Parte 8: Diseño de Clases y Sobrecarga | Lección 12 |
+| **5A** | 08-09 | Funciones Parte 2: Argumentos Variables | Lección 5 |
+| **5B** | 08-09 | Funciones Recursivas Parte 3 | Lección 6 |
+| **6** | 15-09 | POO Parte 1: Creación de Clases y Objetos | Lección 7 |
+| **7** | 22-09 | POO Parte 2: Encapsulamiento | Lección 8 |
+| **8** | 29-09 | POO Parte 3: Métodos set & get | Lección 9 |
+| **9** | 06-10 | POO Parte 4: Herencia | Lección 10 |
+| **9** | 06-10 | POO Parte 5: Herencia Múltiple | Lección 10 |
+| **10** | 13-10 | POO Parte 6: Clases Abstractas y Estáticas | Lección 11 |
+| **10** | 13-10 | POO Parte 7: Diseño y Contexto Estático | Lección 11 |
+| **11** | 20-10 | POO Parte 8: Diseño de Clases y Sobrecarga | Lección 12 |
 
 ---
 
@@ -216,7 +216,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 4-A: Ejercicios y Más - Solución
+## CLASE 4-A: Ejercicios y Más 
 **Fecha:** Lunes, 1 de septiembre de 2025
 
 - 4.1 **Ejercicio de Colecciones 1:** Eliminar duplicados de una lista
@@ -236,7 +236,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 4-B: Funciones y Ejercicios - Solución
+## CLASE 4-B: Funciones y Ejercicios 
 **Fecha:** Lunes, 1 de septiembre de 2025
 
 - 5.1 **Ejercicio 4:** Sumar Números pares dentro de un rango
@@ -254,7 +254,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 5: Funciones Parte 2 - Solución
+## CLASE 5-A: Funciones Parte 2 
 **Fecha:** Lunes, 8 de septiembre de 2025
 
 - 6.1 **Ejercicio 10:** No Repetir Caracteres
@@ -274,7 +274,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 6: Funciones Recursivas Parte 3 - Solución
+## CLASE 5-B: Funciones Recursivas Parte 3 
 **Fecha:** Lunes, 8 de septiembre de 2025
 
 - 7.1 **Ejercicio 2:** Multiplicar valores con `*args`
@@ -292,7 +292,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 7: POO Parte 1
+## CLASE 6: POO Parte 1
 **Fecha:** Lunes, 15 de septiembre de 2025  
 **Clase en Vivo:** [YouTube](https://www.youtube.com/live/-qaqFlsr8OE)
 
@@ -308,7 +308,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 8: POO Parte 2 - Solución
+## CLASE 7: POO Parte 2 - Solución
 **Fecha:** Lunes, 22 de septiembre de 2025  
 **Clase en Vivo:** [YouTube](https://www.youtube.com/live/N_jEisNijsc)
 
@@ -326,7 +326,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 9: POO Parte 3 - Métodos set & get - Solución
+## CLASE 8: POO Parte 3 - Métodos set & get 
 **Fecha:** Lunes, 29 de septiembre de 2025  
 **Clase en Vivo:** [YouTube](https://www.youtube.com/live/bQAS6L50FHo)
 
@@ -341,7 +341,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 10: POO Parte 4 - Herencia - Solución
+## CLASE 9: POO Parte 4 - Herencia 
 **Fecha:** Lunes, 6 de octubre de 2025
 
 - 11.1 Diagrama de clase UML: Debes hacerlo en VSC
@@ -363,7 +363,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 11: POO Parte 5 - Herencia Múltiple - Solución
+## CLASE 9: POO Parte 5 - Herencia Múltiple - Solución
 **Fecha:** Lunes, 6 de octubre de 2025
 
 - 12.1 Herencia Múltiple UML teoría
@@ -378,7 +378,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 12: POO Parte 6 - Abstract y Static
+## CLASE 10: POO Parte 6 - Abstract y Static
 **Fecha:** Lunes, 13 de octubre de 2025  
 **Clase en Vivo:** [YouTube](https://www.youtube.com/live/Sve1dcK_6Rc)
 
@@ -393,7 +393,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 13: POO Parte 7 - Diseño, Constante y Contexto Estático
+## CLASE 10: POO Parte 7 - Diseño, Constante y Contexto Estático
 **Fecha:** Lunes, 13 de octubre de 2025
 
 - 14.1 Creación de variables de clase
@@ -408,7 +408,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
-## CLASE 14: POO Parte 8 - Diseño de Clases y Sobrecarga de Operadores
+## CLASE 11: POO Parte 8 - Diseño de Clases y Sobrecarga de Operadores
 **Fecha:** Lunes, 20 de octubre de 2025
 
 - 15.1 Creamos la clase Producto: En carpeta Lección11
@@ -454,5 +454,6 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 * [GitHub Docs](https://docs.github.com/)
 
 ---
+
 
 *Este README es un documento vivo y se actualizará conforme avance el curso.*
