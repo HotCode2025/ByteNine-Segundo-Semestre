@@ -261,3 +261,49 @@ Luego modificar sus valores y volver a imprimir.
 - 8.8 Diagrama de clases UML comenzamos con Herencia: Leccion5
   **→ Ver Diagrama de Clases (UML Herencia) en GitHub:**
   [herencia.uxf](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/Correcci%C3%B3n-Repo/Java/Leccion5/herencia.uxf)
+
+
+## CLASE 9: POO Herencia parte 7 Solución
+- 9.1 Comenzamos, crear una nueva carpeta Lección6: estamos en herencia parte 1
+- 9.2 Herencia parte 2
+- 9.3 Herencia parte 3: clase String Builder
+- 9.4 Herencia parte 4: Sobreescribir toString
+- 9.5 Herencia parte 5: Presentamos la tarea de hoy
+**→ Ver Diagrama de Cliente (UML Herencia) en GitHub:**
+[herencia.uxf](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/Correcci%C3%B3n-Repo/Java/Leccion5/herencia.uxf)
+- 9.6 Solución de la tarea
+- 9.8 Secretos de ejecución
+- 9.9 Orden de construcción de objetos: ejecución paso a paso (debug)
+
+## CLASE 10: POO Sobrecarga de Constructores y métodos parte 8
+- 10.1 Sobrecarga de constructores
+- 10.2 Sobrecarga de Métodos
+- 10.3 Paquetes Parte 1 y Parte 2
+- 10.4 Uso de la palabra reservada final, Parte 1 a la Parte 4
+- 10.5 Por último, hagan un commit de todo el código hecho en clase, sugiero agregar un tag
+**→ Ver TAG en GitHub:**
+[Clase10](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/releases/tag/Clase10)
+
+
+## CLASE 11: Arreglos o Arrays
+- 11.1 Arreglos Parte 1: Creamos la carpeta Leccion9
+- 11.2 Arreglos Parte 2
+- 11.3 Arreglos Parte 3
+- 11.4 Arreglos Parte 4
+- 11.5 Agregamos el toString
+- 11.6 Arreglos Parte 5 y 6: Veamos como iterar en Java, tag
+**→ Ver TAG en GitHub:**
+[Clase11]()
+
+
+## CLASE 11: Matrices
+- 12.1 Manejo de Matrices Parte 1: Aquí creamos la carpeta Leccion10
+- 12.2 Manejo de Matrices Parte 2: Hacer la tarea
+- 12.3 Manejo de Matrices Parte 3: Ciclo for iterando
+- 12.4 Manejo de Matrices Parte 4: Sintaxis simplificada
+- 11.5 Agregamos el toString
+- 11.6 Arreglos Parte 5 y 6: Veamos como 
+- 12.5 Manejo de Matrices Parte 5: Matriz de objetos, creamos un método
+- 12.9 Hacer un commit de la clase de hoy, se sugiere utilizar un tag
+**→ Ver TAG en GitHub:**
+[Clase11 M]()
