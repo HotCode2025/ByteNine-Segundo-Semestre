@@ -10,7 +10,7 @@
 
 ---
 ## ☕ Java
-Nuestro rol y resposabilidad, es supervisar y asignar las clases/tareas. A través de las Issues en GitHub. Controlando el estado general del proyecto y verificar el código cumpla con los estandares de calidad de cada clases dadas, para asegurar una integración limpia y eficiente. Nuestro objetivo es mantener una orgonizacion limpia y clara. Para garantizar una ejecutacion existosa. Controlamos los commits y estado general de cada Lección. 
+Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A través de las Issues en GitHub. Controlando el estado general del proyecto y verificar el código cumpla con los estándares de calidad de cada clases dadas, para asegurar una integración limpia y eficiente. Nuestro objetivo es mantener una organización limpia y clara. Para garantizar una ejecutacion exitosa. También realizamos control en los commits, Tag y estado general de cada Lección.
 
 ### 📋 Issues
 | Backlog [ByteNine - Java](https://github.com/orgs/HotCode2025/projects/64/views/1)
