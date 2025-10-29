@@ -10,10 +10,10 @@ La siguiente tabla detalla los roles de cada colaborador en la organización y s
 | :--- | :--- | :--- | :--- |
 | **Agustín Santarena** | **Owner** | Mantenedor Principal y Revisor de Código JavaScript | [@AgusSantarena](https://github.com/AgusSantarena) |
 | Gabriel Santarena | Colaborador | Mantenedor Principal y Revisor de Código JavaScript | [@GabrielSantarena](https://github.com/GabrielSantarena) |
-| Maximiliano Morales | Colaborador | **Mantenedor Principal y Revisor de Código Java** | [@MaxiMorales96](https://github.com/MaxiMorales96) |
+| Maximiliano Ariel Morales | Colaborador | **Mantenedor Principal y Revisor de Código Java** | [@MaxiMorales96](https://github.com/MaxiMorales96) |
 | Valeria Lardín | Colaborador | **Mantenedor Principal y Revisor de Código Java** | [@Vale10Lar](https://github.com/Vale10Lar) |
 | Gustavo Ariel Rodríguez | Colaborador | Mantenedor Principal y Revisor de Código Python | [@GustavoRodriguez79](https://github.com/GustavoRodriguez79) |
-| Santiago | Colaborador | Mantenedor Principal y Revisor de Código Python | [@santy171004](https://github.com/santy171004) |
+| Santiago Nicolas Martin | Colaborador | Mantenedor Principal y Revisor de Código Python | [@santy171004](https://github.com/santy171004) |
 | Nahuel Spikerman | Colaborador | Mantenedor Principal y Revisor de Base de Datos | [@nawe2](https://github.com/nawe2) |
 
 ---
