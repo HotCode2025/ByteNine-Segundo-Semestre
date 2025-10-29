@@ -293,7 +293,7 @@ Luego modificar sus valores y volver a imprimir.
 - 11.5 Agregamos el toString
 - 11.6 Arreglos Parte 5 y 6: Veamos como iterar en Java, tag
 **→ Ver TAG en GitHub:**
-[Clase11]()
+[Java-Clase-11-Arreglos](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/releases/tag/Java-Clase-11-Arreglos)
 
 
 ## CLASE 11: Matrices
@@ -306,4 +306,4 @@ Luego modificar sus valores y volver a imprimir.
 - 12.5 Manejo de Matrices Parte 5: Matriz de objetos, creamos un método
 - 12.9 Hacer un commit de la clase de hoy, se sugiere utilizar un tag
 **→ Ver TAG en GitHub:**
-[Clase11 M]()
+[Clase11-java-Matrices](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/releases/tag/Clase11-java-Matrices)
