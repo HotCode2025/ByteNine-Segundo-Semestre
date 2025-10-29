@@ -1,4 +1,4 @@
-from Leccion13.Empleado import Empleado
+from Empleado import Empleado
 
 
 class Gerente(Empleado):
@@ -7,4 +7,4 @@ class Gerente(Empleado):
         self.departamento = departamento
 
     def __str__(self):
-        return f'Gerente [Departamento: {self.departamento}] {super().__str__()}'
+        return f'Gerente [Departamento: {self.departamento} {super().__str__()}]'

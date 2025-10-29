@@ -1,4 +1,3 @@
-
 class Empleado:
     def __init__(self, nombre, sueldo):
         self.nombre = nombre
@@ -6,3 +5,6 @@ class Empleado:
 
     def __str__(self):
         return f'Empleado: [Nombre: {self.nombre}, Sueldo: {self.sueldo}]'
+
+    def mostrar_detalles(self):
+        return self.__str__()
