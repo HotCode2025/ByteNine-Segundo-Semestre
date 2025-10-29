@@ -27,7 +27,7 @@ Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A trav
 
 ---
 ## 🟢 JavaScript
-Descripción
+Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A través de las Issues en GitHub. Controlando el estado general del proyecto y verificar el código cumpla con los estándares de calidad de cada clases dadas, para asegurar una integración limpia y eficiente. Nuestro objetivo es mantener una organización limpia y clara. Para garantizar una ejecutacion exitosa. También realizamos control en los commits y estado general de cada Lección.
 
 ### 📋 Issues
 | Backlog [ByteNine - JavaScript](https://github.com/orgs/HotCode2025/projects/63)
@@ -45,7 +45,7 @@ Descripción
 
 ---
 ## 🔷 Python
-Descripción
+Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A través de las Issues en GitHub. Controlando el estado general del proyecto y verificar el código cumpla con los estándares de calidad de cada clases dadas, para asegurar una integración limpia y eficiente. Nuestro objetivo es mantener una organización limpia y clara. Para garantizar una ejecutacion exitosa. También realizamos control en los commits y estado general de cada Lección.
 
 ### 📋 Issues
 | Backlog [ByteNine - Python](https://github.com/orgs/HotCode2025/projects/62)
