@@ -14,7 +14,6 @@ La siguiente tabla detalla los roles de cada colaborador en la organización y s
 | Valeria Lardín | Colaborador | **Mantenedor Principal y Revisor de Código Java** | [@Vale10Lar](https://github.com/Vale10Lar) |
 | Gustavo Ariel Rodríguez | Colaborador | Mantenedor Principal y Revisor de Código Python | [@GustavoRodriguez79](https://github.com/GustavoRodriguez79) |
 | Santiago | Colaborador | Mantenedor Principal y Revisor de Código Python | [@santy171004](https://github.com/santy171004) |
-| Damián Adolfo Ponce de León | Colaborador | Mantenedor Principal y Revisor de Base de Datos | [@Clarionda](https://github.com/Clarionda) |
 | Nahuel Spikerman | Colaborador | Mantenedor Principal y Revisor de Base de Datos | [@nawe2](https://github.com/nawe2) |
 
 ---
