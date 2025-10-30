@@ -48,17 +48,11 @@ Conoce a los programadores detrás de este proyecto. Puedes hacer click para ir 
  
    <a href="https://github.com/GabrielSantarena" target="_blank"> <img src="https://avatars.githubusercontent.com/u/144497460?v=4" alt="Foto de Gabriel" width="70"/> <sub><b>Gabriel Santarena</b></sub> <sub>miembro</sub> </a>
   <br />
- 
-   <a href="https://github.com/Clarionda" target="_blank">  <img src="https://avatars.githubusercontent.com/u/210162247?v=4" alt="Foto de Damian" width="70"/> <sub><b>Damian Adolfo Ponce D´ Leon</b></sub> <sub>miembro</sub></a>
-  <br />
     
  
    <a href="https://github.com/GustavoRodriguez79" target="_blank"> <img src="https://avatars.githubusercontent.com/u/214665401?v=4" alt="Foto de Gustavo" width="70"/><sub><b>Gustavo Rodriguez</b></sub> <sub>miembro</sub></a>
   <br />
  
- 
-   <a href="https://github.com/AmeliaVillar" target="_blank"><img src="https://avatars.githubusercontent.com/u/216097224?v=4" alt="Foto de Amelia" width="70"/> <sub><b>Amelia Villar</b></sub> <sub>miembro</sub></a>
-  <br />
 
    <a href="https://github.com/MaxiMorales96" target="_blank"><img src="https://avatars.githubusercontent.com/u/215079477?v=4" alt="Foto de maxi" width="70"/>    <sub><b>Maximiliano Morales</b></sub> <sub>miembro</sub></a>
   <br />
