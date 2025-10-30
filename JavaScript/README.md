@@ -75,11 +75,10 @@ Conoce a los programadores detrás de este proyecto. Puedes hacer click para ir 
 Para trabajar y contribuir a este repositorio, como equipo hemos acordado usar las siguientes herramientas. Click en ellas para obtener mas informacion.
 
 
- <a href="./Java/"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" alt="Logo de Java" width="30"/></a>  **JDK (Java Development Kit) 24**: El entorno esencial para compilar y ejecutar el código Java. 
+---
 
  <a href="[def]" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="Logo de VS Code" width="30"/></a>  **Visual Studio Code**: Nuestro IDE principal para editar y gestionar el código. 
-
-<a href="https://netbeans.apache.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Apache_NetBeans_Logo.svg" alt="Logo de Apache NetBeans" width="30"/></a> **Apache NetBeans**: Recomendado en clase, pero la subida  al repositorio se hara en VS Code, como hemos acordado 
+-----
 </details>
 
 <details>
