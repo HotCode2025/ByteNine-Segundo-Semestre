@@ -13,7 +13,7 @@ Responsibilidades
 -contadorProductos: int
 --
 -Producto()
-+Producto(nombre: String, precio:double)
++Producto(nombre: String, precio: double)
 +getIdProducto(): int
 +getNombre(): String
 +setNombre(nombre: String):void
@@ -40,5 +40,5 @@ Responsabilidades
 --Crear objetos Orden
 --Administrar los productos
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>280</y><w>240</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>280</y><w>230</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
 &lt;&lt;Un producto se agrega a una orden&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element></diagram>
