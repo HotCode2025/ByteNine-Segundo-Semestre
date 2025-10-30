@@ -13,7 +13,7 @@ public class VentasTest {
         Producto producto5 = new Producto("Bufanda", 3500.00);
         Producto producto6 = new Producto("Gorro", 2800.00);
         Producto producto7 = new Producto("Medias", 1200.00);
-        Producto producto8 = new Producto("Cinturon", 4500.00);
+        Producto producto8 = new Producto("Calzoncillo", 4500.00);
         Producto producto9 = new Producto("Guantes", 6200.00);
         Producto producto10 = new Producto("Traje", 45000.00);
         Producto producto11 = new Producto("Corbata", 6000.00);
