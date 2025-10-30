@@ -11,9 +11,9 @@ La siguiente tabla detalla los roles de cada colaborador en la organización y s
 | **Agustín Santarena** | **Owner** | Mantenedor Principal y Revisor de Código JavaScript | [@AgusSantarena](https://github.com/AgusSantarena) |
 | Gabriel Santarena | Colaborador | Mantenedor Principal y Revisor de Código JavaScript | [@GabrielSantarena](https://github.com/GabrielSantarena) |
 | Maximiliano Morales | Colaborador | Mantenedor Principal y Revisor de Código Java | [@MaxiMorales96](https://github.com/MaxiMorales96) |
-| Valeria Lrdín | Colaborador | Mantenedor Principal y Revisor de Código Java | [@Vale10Lar](https://github.com/Vale10Lar) |
+| Valeria Lardín | Colaborador | Mantenedor Principal y Revisor de Código Java | [@Vale10Lar](https://github.com/Vale10Lar) |
 | **Gustavo Ariel Rodríguez** | Colaborador | **Mantenedor Principal y Revisor de Código Python** | [@GustavoRodriguez79](https://github.com/GustavoRodriguez79) |
-| **Santiago** | Colaborador | **Mantenedor Principal y Revisor de Código Python** | [@santy171004](https://github.com/santy171004) |
+| **Santiago Nicolás Martín** | Colaborador | **Mantenedor Principal y Revisor de Código Python** | [@santy171004](https://github.com/santy171004) |
 | Nahuel Spikerman | Colaborador | Mantenedor Principal y Revisor de Base de Datos | [@nawe2](https://github.com/nawe2) |
 
 ---
@@ -98,7 +98,7 @@ Herramientas Clave: PyCharm/VSCode y GitHub Desktop.
 **Encargados de Revisión:**
 
 * **Mantenedor Principal y Revisor de Código:** [Gustavo Ariel Rodríguez](https://github.com/GustavoRodriguez79)
-* **Mantenedor Principal y Revisor de Código:** [Santiago](https://github.com/santy171004)
+* **Mantenedor Principal y Revisor de Código:** [Santiago Nicolás Martín](https://github.com/santy171004)
 
 ### Designación y Concurrencia de Actividades
 
@@ -172,7 +172,8 @@ La siguiente tabla resume el contenido cubierto en cada clase hasta la fecha (**
 | **10** | 13-10 | POO Parte 6: Clases Abstractas y Estáticas | Lección 11 |
 | **10** | 13-10 | POO Parte 7: Diseño y Contexto Estático | Lección 11 |
 | **11** | 20-10 | POO Parte 8: Diseño de Clases y Sobrecarga | Lección 12 |
-
+| **12** | 27-10 | POO Parte 9: Polimosrfismo | Lección 13 |
+| **12** | 27-10 | POO Laboratorio: Mundo Pc | Lección 14 | 
 ---
 
 ## 📖 DETALLE DE CONTENIDO Y PUNTOS DE DESARROLLO
@@ -422,6 +423,38 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 ---
 
+## CLASE 12: POO Parte 9 - Polimorfismo
+**Fecha:** Lunes, 27 de octubre de 2025  
+**Clase en Vivo:** [YouTube](https://www.youtube.com/live/HPauo3I6zdg)
+
+- 16.1 Polimorfismo, teoría: Diagrama de clase UML, carpeta Lección13
+- 16.2 Creamos la clase Empleado
+- 16.3 Creamos la clase Gerente
+- 16.4 Creamos la plantilla de test_polimorfismo, método de polimorfismo
+- 16.5 Pruebas con otro objeto y método
+- 16.6 Prueba de errores y validación con: método isinstance()
+- 16.7 Debug (paso a paso) en polimorfismo
+- 16.8 Commiteamos la clase de hoy, a practicar, sugiero un tag
+
+---
+
+## CLASE 12: POO Laboratorio - Mundo PC
+**Fecha:** Lunes, 27 de octubre de 2025
+
+- 17.1 Diagrama de clase UML: carpeta Lección14
+- 17.2 Teoría de mundo_pc desde el UML
+- 17.3 Creamos la clase padre: DispositivoEntrada
+- 17.4 Creamos la clase hija: Ratón, revisamos un error
+- 17.5 Creamos la clase hija: Teclado, hacemos pruebas
+- 17.6 Creamos una clase independiente: Monitor
+- 17.7 Creamos la clase independiente: Computadora
+- 17.8 Creamos la clase independiente: Orden
+- 17.9 Comenzamos las pruebas: Creamos objetos y arrays
+- 17.9a Hacer un commit de la clase de hoy, se puede hacer un fork directamente
+
+---
+
+
 ## 🎯 CONSEJOS Y BUENAS PRÁCTICAS
 
 1. **PEP 8:** Sigue siempre el estándar de estilo de código Python ([PEP 8](https://pep8.org/)).
@@ -442,7 +475,7 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 ---
 
 **Última actualización:** Octubre 2025  
-**Mantenedores:** Gustavo Ariel Rodríguez & Santiago
+**Mantenedores:** Gustavo Ariel Rodríguez & Santiago Nicolás Martín
 
 ---
 
@@ -457,3 +490,4 @@ Este listado detalla los puntos específicos cubiertos y desarrollados en cada c
 
 
 *Este README es un documento vivo y se actualizará conforme avance el curso.*
+
