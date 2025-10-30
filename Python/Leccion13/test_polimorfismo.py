@@ -10,8 +10,8 @@ def imprimir_detalles(objeto):
         print(objeto.departamento)
 
 
-    empleado = Empleado('Ariel', 50000)
-    imprimir_detalles(empleado)
+empleado = Empleado('Ariel', 50000)
+imprimir_detalles(empleado)
 
-    gerente = Gerente('Natalia', 60000, 'Sistemas')
-    imprimir_detalles(gerente)
+gerente = Gerente('Natalia', 60000, 'Sistemas')
+imprimir_detalles(gerente)
