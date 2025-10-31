@@ -44,8 +44,26 @@ Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A trav
 | **Gustavo Ariel Rodriguez** | **Desarrollo Backend (Python)** | [@GustavoRodriguez79](https://github.com/GustavoRodriguez79) |
 
 ---
-## 🔷 Python
+## 🐍 Python
 Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A través de las Issues en GitHub. Controlando el estado general del proyecto y verificar el código cumpla con los estándares de calidad de cada clases dadas, para asegurar una integración limpia y eficiente. Nuestro objetivo es mantener una organización limpia y clara. Para garantizar una ejecutacion exitosa. También realizamos control en los commits y estado general de cada Lección.
 
 ### 📋 Issues
 | Backlog [ByteNine - Python](https://github.com/orgs/HotCode2025/projects/62)
+---
+### 📘 Accesos Directos
+| 📂 **Recurso**                          | 🔗 **Acceso**                                                                                           |
+| :-------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| **Repositorio de la Lección de Python** | [👉 Ir a la Carpeta Python](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/main/Python)  |
+| **README de la Clase Python**           | [📖 Ver README.md](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/main/Python/README.md) |
+
+---
+### 🧠 Entorno de Desarrollo
+
+| 🛠️ **Herramienta**                                                                                                                                                                                              | 💡 **Uso Principal**                                         | 🔗 **Descarga / Info**                                                              |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+| [![Python Badge](https://img.shields.io/badge/Python-3.13.2-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](https://www.python.org/)                                                                  | Lenguaje principal del desarrollo backend.                   | [Descargar Python](https://www.python.org/downloads/release/python-3132/)           |
+| [![PyCharm](https://img.shields.io/badge/PyCharm%20Community%20Edition-IDE%20Principal-000000?style=for-the-badge\&logo=pycharm\&logoColor=00C853)](https://www.jetbrains.com/pycharm/download/#section=windows) | IDE principal para desarrollo, depuración y testeo.          | [Descargar PyCharm CE](https://www.jetbrains.com/pycharm/download/#section=windows) |
+| [![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-IDE%20Secundario-0078D4?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)](https://code.visualstudio.com/)                            | IDE secundario utilizado para documentación y diagramas UML. | [Descargar VS Code](https://code.visualstudio.com/)                                 |
+
+
+
