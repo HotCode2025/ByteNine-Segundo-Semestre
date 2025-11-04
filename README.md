@@ -55,6 +55,7 @@ Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A trav
 | :-------------------------------------- | :------------------------------------------------------------------------------------------------------ |
 | **Repositorio de la Lección de Python** | [👉 Ir a la Carpeta Python](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/main/Python)  |
 | **README de la Clase Python**           | [📖 Ver README.md](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/main/Python/README.md) |
+| **Magic Methods en Python**           | [📖 Ver README.md](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/blob/main/Python/Leccion12/README.md) |
 
 ---
 ### 🧠 Entorno de Desarrollo
