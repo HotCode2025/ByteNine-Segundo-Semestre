@@ -1,31 +1,32 @@
 # 🚀 [ByteNine]
 ## 🧑‍💻 Equipo de Desarrollo en Java 🧑‍💻
 [![Java](https://img.shields.io/badge/Java-15-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
-[![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-red?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/Java)
+[![Estado](https://img.shields.io/badge/Estado-%20Finalizado-gren?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/Java)
 
 | Integrantes | Rol / Responsabilidad | GitHub |
 | :--- | :--- | :--- |
 | **Maximiliano Ariel Morales** | **Desarrollo Backend (Java)** | [@MaxiMorales96](https://github.com/MaxiMorales96) |
 | **Valería Elena Lardín** | **Desarrollo Backend (Java)** | [@Vale10Lar](https://github.com/Vale10Lar) |
 
----
+
 ## ☕ Java
 Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A través de las Issues en GitHub. Controlando el estado general del proyecto y verificar el código cumpla con los estándares de calidad de cada clases dadas, para asegurar una integración limpia y eficiente. Nuestro objetivo es mantener una organización limpia y clara. Para garantizar una ejecutacion exitosa. También realizamos control en los commits, Tag y estado general de cada Lección.
 
 ### 📋 Issues
 | Backlog [ByteNine - Java](https://github.com/orgs/HotCode2025/projects/64/views/1)
 
+
 ---
 ## 🧑‍💻 Equipo de Desarrollo en JavaScript 🧑‍💻
 [![JavaScript](https://img.shields.io/badge/Node-24.6-green?style=for-the-badge&logo=javascript)](https://nodejs.org/en/download)
-[![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-red?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/JavaScript)
+[![Estado](https://img.shields.io/badge/Estado-%20Finalizado-gren?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/JavaScript)
 
 | Integrantes | Rol / Responsabilidad | GitHub |
 | :--- | :--- | :--- |
 | **Agustín Santarena** | **Desarrollo Backend (JavaScript)** | [@AgusSantarena](https://github.com/AgusSantarena) |
 | **Gabriel Santarena** | **Desarrollo Backend (JavaScript)** | [@GabrielSantarena](https://github.com/GabrielSantarena) |
 
----
+
 ## 🟢 JavaScript
 Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A través de las Issues en GitHub. Controlando el estado general del proyecto y verificar el código cumpla con los estándares de calidad de cada clases dadas, para asegurar una integración limpia y eficiente. Nuestro objetivo es mantener una organización limpia y clara. Para garantizar una ejecutacion exitosa. También realizamos control en los commits y estado general de cada Lección.
 
@@ -36,7 +37,7 @@ Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A trav
 
 ## 🧑‍💻 Equipo de Desarrollo en Python 🧑‍💻
 [![Python](https://img.shields.io/badge/Python-3.13.2-yellow?style=for-the-badge&logo=Python)](https://www.python.org/downloads/release/python-3132/)
-[![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-red?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/Python)
+[![Estado](https://img.shields.io/badge/Estado-%20Finalizado-gren?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/Python)
 
 | Integrantes | Rol / Responsabilidad | GitHub |
 | :--- | :--- | :--- |
@@ -65,5 +66,11 @@ Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A trav
 | [![PyCharm](https://img.shields.io/badge/PyCharm%20Community%20Edition-IDE%20Principal-000000?style=for-the-badge\&logo=pycharm\&logoColor=00C853)](https://www.jetbrains.com/pycharm/download/#section=windows) | IDE principal para desarrollo, depuración y testeo.          | [Descargar PyCharm CE](https://www.jetbrains.com/pycharm/download/#section=windows) |
 | [![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-IDE%20Secundario-0078D4?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)](https://code.visualstudio.com/)                            | IDE secundario utilizado para documentación y diagramas UML. | [Descargar VS Code](https://code.visualstudio.com/)                                 |
 
+---
 
+[![MySQL](https://img.shields.io/badge/mysql-8.0-007396?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/downloads/)
+![Estado](https://img.shields.io/badge/Estado-%20Finalizado-gren?style=for-the-badge)
 
+| Integrantes | Rol / Responsabilidad | GitHub |
+| :--- | :--- | :--- |
+| **Nahuel Spikerman** | **Base de Datos MySql** | [@nawe2](https://github.com/nawe2) |
