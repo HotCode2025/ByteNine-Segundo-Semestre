@@ -1,6 +1,6 @@
 # 🚀 [ByteNine]
 ## 🧑‍💻 Equipo de Desarrollo en Java 🧑‍💻
-[![Java](https://img.shields.io/badge/Java-15-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
+[![Java](https://img.shields.io/badge/Java-15.0.2-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
 [![Estado](https://img.shields.io/badge/Estado-%20Finalizado-gren?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/Java)
 
 | Integrantes | Rol / Responsabilidad | GitHub |
