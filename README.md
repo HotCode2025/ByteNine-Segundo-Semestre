@@ -1,7 +1,7 @@
 # 🚀 [ByteNine]
 ## 🧑‍💻 Equipo de Desarrollo en Java 🧑‍💻
-[![Java](https://img.shields.io/badge/Java-15-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
-[![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-red?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/Java)
+[![Java](https://img.shields.io/badge/Java-15.0.2-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
+[![Estado](https://img.shields.io/badge/Estado-%20Finalizado-gren?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/Java)
 
 | Integrantes | Rol / Responsabilidad | GitHub |
 | :--- | :--- | :--- |
@@ -18,7 +18,7 @@ Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A trav
 ---
 ## 🧑‍💻 Equipo de Desarrollo en JavaScript 🧑‍💻
 [![JavaScript](https://img.shields.io/badge/Node-24.6-green?style=for-the-badge&logo=javascript)](https://nodejs.org/en/download)
-[![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-red?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/JavaScript)
+[![Estado](https://img.shields.io/badge/Estado-%20Finalizado-gren?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/JavaScript)
 
 | Integrantes | Rol / Responsabilidad | GitHub |
 | :--- | :--- | :--- |
@@ -36,7 +36,7 @@ Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A trav
 
 ## 🧑‍💻 Equipo de Desarrollo en Python 🧑‍💻
 [![Python](https://img.shields.io/badge/Python-3.13.2-yellow?style=for-the-badge&logo=Python)](https://www.python.org/downloads/release/python-3132/)
-[![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-red?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/Python)
+[![Estado](https://img.shields.io/badge/Estado-%20Finalizado-gren?style=for-the-badge)](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/tree/Correcci%C3%B3n-Repo/Python)
 
 | Integrantes | Rol / Responsabilidad | GitHub |
 | :--- | :--- | :--- |
