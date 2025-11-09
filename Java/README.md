@@ -306,3 +306,17 @@ Luego modificar sus valores y volver a imprimir.
 - 12.9 Hacer un commit de la clase de hoy, se sugiere utilizar un tag
 **→ Ver TAG en GitHub:**
 [Clase11-java-Matrices](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/releases/tag/Clase11-java-Matrices)
+
+
+## CLASE 12: Diseño de clases
+- 13.1 Diagrama de clases UML: Creamos el archivo .uxf en VSC carpeta Leccion11
+- 13.2 Creamos la clase Producto
+- 13.3 Comenzamos con la clase Orden: Parte 1
+- 13.4 Comenzamos con la clase Orden: Parte 2
+- 13.5 Comenzamos con la clase Orden: Parte 3
+- 13.6 Comenzamos con la clase Orden: Parte 4
+- 13.7 Comenzamos con las pruebas en VentasTest
+- 13.8 Ahora vamos a hacer una tarea con Diseño de clase
+- 13.9 Hacemos un commit de la clase de hoy, sugiero un tag
+**→ Ver TAG en GitHub:**
+[Clase12](https://github.com/HotCode2025/ByteNine-Segundo-Semestre/releases/tag/Clase12)
