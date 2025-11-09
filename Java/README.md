@@ -149,7 +149,11 @@ La siguiente tabla resume el contenido cubierto en cada clase hasta la fecha(**s
 | **6A**| 24-09 | Programación Orientada a Objetos Parte 4 |Lección 2/Leccion 3/ Lección 4 |
 | **6B**| 24-09 | Programación Orientada a Objetos Parte 5 |Lección 2/Lección 5 |
 | **8** | 01-10 | Paso de Argumentos y Operador `this` (POO Parte 3) | Lección 5 |
-
+| **9** | 08-10 | POO Herencia parte 7 Solución |
+| **10**| 15-10 | POO Sobrecarga de Constructores y métodos parte 8 |
+| **11**| 22-10 | Arreglos o Arrays |
+| **11**| 22-10 | Matrices |
+| **12**| 29-10 | Diseño de clases |
 
 
 
