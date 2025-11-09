@@ -67,4 +67,11 @@ Nuestro rol y responsabilidad, es supervisar y asignar las clases/tareas. A trav
 | [![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-IDE%20Secundario-0078D4?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)](https://code.visualstudio.com/)                            | IDE secundario utilizado para documentación y diagramas UML. | [Descargar VS Code](https://code.visualstudio.com/)                                 |
 
 
+---
 
+[![MySQL](https://img.shields.io/badge/mysql-8.0-007396?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/downloads/)
+![Estado](https://img.shields.io/badge/Estado-%20Finalizado-gren?style=for-the-badge)
+
+| Integrantes | Rol / Responsabilidad | GitHub |
+| :--- | :--- | :--- |
+| **Nahuel Spikerman** | **Base de Datos MySql** | [@nawe2](https://github.com/nawe2) |
