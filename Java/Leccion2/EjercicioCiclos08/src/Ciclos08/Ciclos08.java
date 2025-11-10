@@ -4,10 +4,26 @@ Punto: 5.7Ejercicio Ciclos 08 con Scanner y JOptionPane*/
 //Clase Scanner
 package Ciclos08;
 
+import java.util.Scanner;
 
 public class Ciclos08 {
+
     public static void main(String[] args) {
-        
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese un numero N mayor a 0: ");
+        int N = scanner.nextInt();
+
+        if (N <= 0) {
+            System.out.println("Numero incorrecto. Debe ser mayor que 0");
+        } else {
+            System.out.println("Ingrese un numero:");
+            for (int i = 1; i <= N; i++) {
+                System.out.println(i);
+            }
+
+            scanner.close();
+        }
+
     }
-    
 }
