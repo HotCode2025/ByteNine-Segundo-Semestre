@@ -1,0 +1,21 @@
+//CLASE 6:B. Programacion Orientada a objetos parte 5-Tarea
+//Punto: 7.2 Ejercicio Ciclos 11: Con Clase Scanner y JOption
+//Ejercicio 11: Diseñar un programa  que muestre el producto
+//de los 10 primeros numeros impares
+//Clase JOptionPane
+
+function productoImpar() {
+  let producto = 1;
+  let contador = 0;
+  let numero = 1;
+
+  while (contador < 10) {
+    producto *= numero;
+    contador++;
+    numero += 5;
+  }
+
+  console.log("El producto de los 10 primeros numeros impar son: " + producto);
+}
+
+productoImpar();
